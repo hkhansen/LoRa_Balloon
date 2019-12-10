@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:LoRa_Balloon-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -313,7 +314,7 @@ Wire Wire Line
 Wire Wire Line
 	1575 3250 1975 3250
 Connection ~ 1575 3075
-Text Label 3250 3000 2    35   ~ 7
+Text Label 3250 3000 2    35   ~ 0
 SX1272_RF_RX
 Wire Wire Line
 	2600 3000 3250 3000
@@ -324,7 +325,7 @@ Wire Wire Line
 Connection ~ 2800 3250
 Wire Wire Line
 	2800 3250 3250 3250
-Text Label 3250 3250 2    35   ~ 7
+Text Label 3250 3250 2    35   ~ 0
 SX1272_RF_TX
 Wire Wire Line
 	2600 2550 3050 2550
@@ -334,13 +335,13 @@ Wire Wire Line
 	2600 2400 3050 2400
 Wire Wire Line
 	2600 2325 3050 2325
-Text Label 3050 2550 2    35   ~ 7
+Text Label 3050 2550 2    35   ~ 0
 RF_CS
-Text Label 3050 2475 2    35   ~ 7
+Text Label 3050 2475 2    35   ~ 0
 MOSI
-Text Label 3050 2400 2    35   ~ 7
+Text Label 3050 2400 2    35   ~ 0
 MISO
-Text Label 3050 2325 2    35   ~ 7
+Text Label 3050 2325 2    35   ~ 0
 SCK
 $Comp
 L dtusat-power:GND #PWR?
@@ -358,7 +359,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 2100 2600 2025
 Connection ~ 2600 2025
-Text Label 2950 1800 2    35   ~ 7
+Text Label 2950 1800 2    35   ~ 0
 RXTX_SW
 $Comp
 L dtusat-resistors:R_0402_10k_CID1101 R?
@@ -375,7 +376,7 @@ F 7 "1%" V 3300 1875 35  0001 C CNN "Tolerance"
 	1    3050 1875
 	0    1    1    0   
 $EndComp
-Text Label 2950 1875 2    35   ~ 7
+Text Label 2950 1875 2    35   ~ 0
 Reset_SX
 Wire Wire Line
 	2600 1800 2950 1800
@@ -406,8 +407,16 @@ Wire Wire Line
 	2600 1350 2950 1350
 Wire Wire Line
 	2600 1275 2950 1275
-Text Label 2950 1650 2    35   ~ 7
+Text Label 2950 1650 2    35   ~ 0
 DIO5
-Text Label 2950 1575 2    35   ~ 7
+Text Label 2950 1575 2    35   ~ 0
 DIO4
+Text Label 2950 1500 2    35   ~ 0
+DIO3
+Text Label 2950 1425 2    35   ~ 0
+DIO2
+Text Label 2950 1350 2    35   ~ 0
+DIO1
+Text Label 2950 1275 2    35   ~ 0
+DIO0
 $EndSCHEMATC
