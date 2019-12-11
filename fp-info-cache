@@ -1,4 +1,4 @@
-174731762965018
+174535457720828
 dtusat
 2.4Ghz_antenna
 Imported from 2.4GHz_antenna.svg
@@ -13,6 +13,13 @@ dtusat
 0
 6
 6
+dtusat
+ATMega328P_AU
+
+
+0
+32
+32
 dtusat
 BMI-S-203-F_EMI_shield
 
@@ -112,13 +119,6 @@ DTUSat_logo
 0
 0
 dtusat
-DTUSat_logo_silk
-
-
-0
-0
-0
-dtusat
 ELL8TP100MB
 
 
@@ -155,13 +155,6 @@ FX20-40S-0.5SV
 41
 dtusat
 FX23-40P-0.5SV15
-
-
-0
-48
-45
-dtusat
-FX23-40S-0.5S(test)
 
 
 0
@@ -616,13 +609,6 @@ SSOT-6
 6
 6
 dtusat
-Sunsensor
-
-
-0
-20
-20
-dtusat
 TO-263
 D2PAK / TO-263 3-lead smd package
 D2PAK D2PAK-3 TO-263AB TO-263
@@ -700,6 +686,20 @@ SSOP 0.65
 28
 28
 dtusat
+TSX-3225
+
+
+0
+4
+4
+dtusat
+TXC14.3
+
+
+0
+2
+2
+dtusat
 UFL_Feedtrough
 
 
@@ -714,13 +714,6 @@ USB-C
 32
 26
 dtusat
-ads_stamp
-
-
-0
-48
-48
-dtusat
 eps-side_stamp_2.0
 
 
@@ -734,6 +727,13 @@ eps_stamp_2.0
 0
 68
 16
+dtusat
+qwiic_6pin
+
+
+0
+8
+7
 dtusat
 ss-side_stamp_2.0
 
