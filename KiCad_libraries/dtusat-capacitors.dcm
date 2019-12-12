@@ -1,0 +1,614 @@
+EESchema-DOCLIB  Version 2.0
+#
+#
+$CMP C_0603_100nF_CID2000
+D 100nF capacitor, 10%, X7R, 0603, CID2000
+K 100nF, capacitor, 0603, 10%, X7R, CID2000
+$ENDCMP
+#
+#
+$CMP C_0603_2.2nF_CID2001
+D 2.2nF capacitor, , X7R, 0603, CID2001
+K 2.2nF, capacitor, 0603, , X7R, CID2001
+$ENDCMP
+#
+#
+$CMP C_0603_100pF_CID2002
+D 100pF capacitor, , NP0, 0603, CID2002
+K 100pF, capacitor, 0603, , NP0, CID2002
+$ENDCMP
+#
+#
+$CMP C_0805_22pF_CID2003
+D 22pF capacitor, , NP0, 0805, CID2003
+K 22pF, capacitor, 0805, , NP0, CID2003
+$ENDCMP
+#
+#
+$CMP C_0603_47pF_CID2004
+D 47pF capacitor, 5%, NP0, 0603, CID2004
+K 47pF, capacitor, 0603, 5%, NP0, CID2004
+$ENDCMP
+#
+#
+$CMP C_0805_10nF_CID2005
+D 10nF capacitor, , X7R, 0805, CID2005
+K 10nF, capacitor, 0805, , X7R, CID2005
+$ENDCMP
+#
+#
+$CMP C_0805_10nF_CID2005a
+D 10nF capacitor, , X7R, 0805, CID2005a
+K 10nF, capacitor, 0805, , X7R, CID2005a
+$ENDCMP
+#
+#
+$CMP C_0603_33pF_CID2006
+D 33pF capacitor, 5%, NP0, 0603, CID2006
+K 33pF, capacitor, 0603, 5%, NP0, CID2006
+$ENDCMP
+#
+#
+$CMP C_0603_1nF_CID2007
+D 1nF capacitor, 10%, X7R, 0603, CID2007
+K 1nF, capacitor, 0603, 10%, X7R, CID2007
+$ENDCMP
+#
+#
+$CMP C_0805_100nF_CID2008
+D 100nF capacitor, 10%, X7R, 0805, CID2008
+K 100nF, capacitor, 0805, 10%, X7R, CID2008
+$ENDCMP
+#
+#
+$CMP C_1210_1uF_CID2009
+D 1uF capacitor, , , 1210, CID2009
+K 1uF, capacitor, 1210, , , CID2009
+$ENDCMP
+#
+#
+$CMP C_1210_22uF_CID2010
+D 22uF capacitor, , X5R, 1210, CID2010
+K 22uF, capacitor, 1210, , X5R, CID2010
+$ENDCMP
+#
+#
+$CMP C_0805_1uF_CID2011
+D 1uF capacitor, 10%, X7R, 0805, CID2011
+K 1uF, capacitor, 0805, 10%, X7R, CID2011
+$ENDCMP
+#
+#
+$CMP C_0805_470nF_CID2012
+D 470nF capacitor, 10%, X7R, 0805, CID2012
+K 470nF, capacitor, 0805, 10%, X7R, CID2012
+$ENDCMP
+#
+#
+$CMP C_1206_4.7uF_CID2013
+D 4.7uF capacitor, , Y5V, 1206, CID2013
+K 4.7uF, capacitor, 1206, , Y5V, CID2013
+$ENDCMP
+#
+#
+$CMP C_1206_10uF_CID2014
+D 10uF capacitor, 10%, X7R, 1206, CID2014
+K 10uF, capacitor, 1206, 10%, X7R, CID2014
+$ENDCMP
+#
+#
+$CMP C_1210_10uF_CID2015
+D 10uF capacitor, 10%, X7R, 1210, CID2015
+K 10uF, capacitor, 1210, 10%, X7R, CID2015
+$ENDCMP
+#
+#
+$CMP C_1206_2.2uF_CID2016
+D 2.2uF capacitor, 10%, X7R, 1206, CID2016
+K 2.2uF, capacitor, 1206, 10%, X7R, CID2016
+$ENDCMP
+#
+#
+$CMP C_0603_10nF_CID2017
+D 10nF capacitor, 10%, X7R, 0603, CID2017
+K 10nF, capacitor, 0603, 10%, X7R, CID2017
+$ENDCMP
+#
+#
+$CMP C_0603_22nF_CID2018
+D 22nF capacitor, 10%, X7R, 0603, CID2018
+K 22nF, capacitor, 0603, 10%, X7R, CID2018
+$ENDCMP
+#
+#
+$CMP C_0603_18pF_CID2019
+D 18pF capacitor, 5%, NP0, 0603, CID2019
+K 18pF, capacitor, 0603, 5%, NP0, CID2019
+$ENDCMP
+#
+#
+$CMP C_0603_27pF_CID2020
+D 27pF capacitor, 5%, NP0, 0603, CID2020
+K 27pF, capacitor, 0603, 5%, NP0, CID2020
+$ENDCMP
+#
+#
+$CMP C_1206_4.7uF_CID2021
+D 4.7uF capacitor, 10%, X7R, 1206, CID2021
+K 4.7uF, capacitor, 1206, 10%, X7R, CID2021
+$ENDCMP
+#
+#
+$CMP C_0603_220pF_CID2022
+D 220pF capacitor, , NP0, 0603, CID2022
+K 220pF, capacitor, 0603, , NP0, CID2022
+$ENDCMP
+#
+#
+$CMP C_0603_82pF_CID2023
+D 82pF capacitor, , NP0, 0603, CID2023
+K 82pF, capacitor, 0603, , NP0, CID2023
+$ENDCMP
+#
+#
+$CMP C_0603_10pF_CID2024
+D 10pF capacitor, , NP0, 0603, CID2024
+K 10pF, capacitor, 0603, , NP0, CID2024
+$ENDCMP
+#
+#
+$CMP C_0603_1.5pF_CID2025
+D 1.5pF capacitor, , NP0, 0603, CID2025
+K 1.5pF, capacitor, 0603, , NP0, CID2025
+$ENDCMP
+#
+#
+$CMP C_0603_1pF_CID2026
+D 1pF capacitor, , NP0, 0603, CID2026
+K 1pF, capacitor, 0603, , NP0, CID2026
+$ENDCMP
+#
+#
+$CMP C_0603_33nF_CID2027
+D 33nF capacitor, , X7R, 0603, CID2027
+K 33nF, capacitor, 0603, , X7R, CID2027
+$ENDCMP
+#
+#
+$CMP C_0603_5.6pF_CID2028
+D 5.6pF capacitor, , , 0603, CID2028
+K 5.6pF, capacitor, 0603, , , CID2028
+$ENDCMP
+#
+#
+$CMP C_0603_5.6pF_CID2028a
+D 5.6pF capacitor, , C0G, 0603, CID2028a
+K 5.6pF, capacitor, 0603, , C0G, CID2028a
+$ENDCMP
+#
+#
+$CMP C_0603_1.5nF_CID2029
+D 1.5nF capacitor, , X7R, 0603, CID2029
+K 1.5nF, capacitor, 0603, , X7R, CID2029
+$ENDCMP
+#
+#
+$CMP C_0603_470pF_CID2030
+D 470pF capacitor, , X7R, 0603, CID2030
+K 470pF, capacitor, 0603, , X7R, CID2030
+$ENDCMP
+#
+#
+$CMP C_0402_220pF_CID2031
+D 220pF capacitor, , C0G, 0402, CID2031
+K 220pF, capacitor, 0402, , C0G, CID2031
+$ENDCMP
+#
+#
+$CMP C_0805_12pF_CID2032
+D 12pF capacitor, , C0G, 0805, CID2032
+K 12pF, capacitor, 0805, , C0G, CID2032
+$ENDCMP
+#
+#
+$CMP C_0603_1.5pF_CID2033
+D 1.5pF capacitor, , , 0603, CID2033
+K 1.5pF, capacitor, 0603, , , CID2033
+$ENDCMP
+#
+#
+$CMP C_0603_10pF_CID2034
+D 10pF capacitor, , NP0, 0603, CID2034
+K 10pF, capacitor, 0603, , NP0, CID2034
+$ENDCMP
+#
+#
+$CMP C_0805_220pF_CID2035
+D 220pF capacitor, , C0G, 0805, CID2035
+K 220pF, capacitor, 0805, , C0G, CID2035
+$ENDCMP
+#
+#
+$CMP C_0402_100pF_CID2036
+D 100pF capacitor, , C0G, 0402, CID2036
+K 100pF, capacitor, 0402, , C0G, CID2036
+$ENDCMP
+#
+#
+$CMP C_0402_100pF_CID2036a
+D 100pF capacitor, , NP0, 0402, CID2036a
+K 100pF, capacitor, 0402, , NP0, CID2036a
+$ENDCMP
+#
+#
+$CMP C_0402_22pF_CID2037
+D 22pF capacitor, 2%, NP0, 0402, CID2037
+K 22pF, capacitor, 0402, 2%, NP0, CID2037
+$ENDCMP
+#
+#
+$CMP C_0402_2pF_CID2038
+D 2pF capacitor, , C0G, 0402, CID2038
+K 2pF, capacitor, 0402, , C0G, CID2038
+$ENDCMP
+#
+#
+$CMP C_0402_6.8pF_CID2039
+D 6.8pF capacitor, , C0G, 0402, CID2039
+K 6.8pF, capacitor, 0402, , C0G, CID2039
+$ENDCMP
+#
+#
+$CMP C_0603_5.1pF_CID2040
+D 5.1pF capacitor, , NP0, 0603, CID2040
+K 5.1pF, capacitor, 0603, , NP0, CID2040
+$ENDCMP
+#
+#
+$CMP C_0603_1nF_CID2041
+D 1nF capacitor, , C0G, 0603, CID2041
+K 1nF, capacitor, 0603, , C0G, CID2041
+$ENDCMP
+#
+#
+$CMP C_0603_22pF_CID2042
+D 22pF capacitor, , NP0, 0603, CID2042
+K 22pF, capacitor, 0603, , NP0, CID2042
+$ENDCMP
+#
+#
+$CMP C_0603_3pF_CID2043
+D 3pF capacitor, , C0G, 0603, CID2043
+K 3pF, capacitor, 0603, , C0G, CID2043
+$ENDCMP
+#
+#
+$CMP C_0402_110pF_CID2044
+D 110pF capacitor, , NP0, 0402, CID2044
+K 110pF, capacitor, 0402, , NP0, CID2044
+$ENDCMP
+#
+#
+$CMP C_0805_33nF_CID2045
+D 33nF capacitor, , C0G, 0805, CID2045
+K 33nF, capacitor, 0805, , C0G, CID2045
+$ENDCMP
+#
+#
+$CMP C_0402_1.8pF_CID2046
+D 1.8pF capacitor, +-0.1pF, NP0, 0402, CID2046
+K 1.8pF, capacitor, 0402, +-0.1pF, NP0, CID2046
+$ENDCMP
+#
+#
+$CMP C_0603_470pF_CID2047
+D 470pF capacitor, , C0G, 0603, CID2047
+K 470pF, capacitor, 0603, , C0G, CID2047
+$ENDCMP
+#
+#
+$CMP C_0603_470pF_CID2047a
+D 470pF capacitor, , NP0, 0603, CID2047a
+K 470pF, capacitor, 0603, , NP0, CID2047a
+$ENDCMP
+#
+#
+$CMP C_0805_47nF_CID2048
+D 47nF capacitor, , C0G, 0805, CID2048
+K 47nF, capacitor, 0805, , C0G, CID2048
+$ENDCMP
+#
+#
+$CMP C_0805_100pF_CID2049
+D 100pF capacitor, , C0G, 0805, CID2049
+K 100pF, capacitor, 0805, , C0G, CID2049
+$ENDCMP
+#
+#
+$CMP C_0805_100pF_CID2049a
+D 100pF capacitor, , NP0, 0805, CID2049a
+K 100pF, capacitor, 0805, , NP0, CID2049a
+$ENDCMP
+#
+#
+$CMP C_0805_10uF_CID2050
+D 10uF capacitor, , X7R, 0805, CID2050
+K 10uF, capacitor, 0805, , X7R, CID2050
+$ENDCMP
+#
+#
+$CMP C_0805_10uF_CID2050a
+D 10uF capacitor, , X5R, 0805, CID2050a
+K 10uF, capacitor, 0805, , X5R, CID2050a
+$ENDCMP
+#
+#
+$CMP C_0402_30pF_CID2051
+D 30pF capacitor, , C0G, 0402, CID2051
+K 30pF, capacitor, 0402, , C0G, CID2051
+$ENDCMP
+#
+#
+$CMP C_0603_39pF_CID2052
+D 39pF capacitor, , NP0, 0603, CID2052
+K 39pF, capacitor, 0603, , NP0, CID2052
+$ENDCMP
+#
+#
+$CMP C_0603_39pF_CID2052a
+D 39pF capacitor, , NP0, 0603, CID2052a
+K 39pF, capacitor, 0603, , NP0, CID2052a
+$ENDCMP
+#
+#
+$CMP C_0603_1.2nF_CID2053
+D 1.2nF capacitor, , NP0, 0603, CID2053
+K 1.2nF, capacitor, 0603, , NP0, CID2053
+$ENDCMP
+#
+#
+$CMP C_0603_1.1nF_CID2054
+D 1.1nF capacitor, , NP0, 0603, CID2054
+K 1.1nF, capacitor, 0603, , NP0, CID2054
+$ENDCMP
+#
+#
+$CMP C_0805_1.2nF_CID2055
+D 1.2nF capacitor, , NP0, 0805, CID2055
+K 1.2nF, capacitor, 0805, , NP0, CID2055
+$ENDCMP
+#
+#
+$CMP C_0603_30pF_CID2056
+D 30pF capacitor, , NP0, 0603, CID2056
+K 30pF, capacitor, 0603, , NP0, CID2056
+$ENDCMP
+#
+#
+$CMP C_0603_7.0pF_CID2057
+D 7.0pF capacitor, , NP0, 0603, CID2057
+K 7.0pF, capacitor, 0603, , NP0, CID2057
+$ENDCMP
+#
+#
+$CMP C_0603_15pF_CID2058
+D 15pF capacitor, , NP0, 0603, CID2058
+K 15pF, capacitor, 0603, , NP0, CID2058
+$ENDCMP
+#
+#
+$CMP C_0603_36pF_CID2059
+D 36pF capacitor, , NP0, 0603, CID2059
+K 36pF, capacitor, 0603, , NP0, CID2059
+$ENDCMP
+#
+#
+$CMP C_0805_6pF_CID2060
+D 6pF capacitor, , NP0, 0805, CID2060
+K 6pF, capacitor, 0805, , NP0, CID2060
+$ENDCMP
+#
+#
+$CMP C_0805_270pF_CID2061
+D 270pF capacitor, , NP0, 0805, CID2061
+K 270pF, capacitor, 0805, , NP0, CID2061
+$ENDCMP
+#
+#
+$CMP C_0603_180pF_CID2062
+D 180pF capacitor, , NP0, 0603, CID2062
+K 180pF, capacitor, 0603, , NP0, CID2062
+$ENDCMP
+#
+#
+$CMP C_0805_82pF_CID2063
+D 82pF capacitor, , NP0, 0805, CID2063
+K 82pF, capacitor, 0805, , NP0, CID2063
+$ENDCMP
+#
+#
+$CMP C_0805_560pF_CID2064
+D 560pF capacitor, , NP0, 0805, CID2064
+K 560pF, capacitor, 0805, , NP0, CID2064
+$ENDCMP
+#
+#
+$CMP C_0805_1uF_CID2065
+D 1uF capacitor, , X7R, 0805, CID2065
+K 1uF, capacitor, 0805, , X7R, CID2065
+$ENDCMP
+#
+#
+$CMP C_0603_2pF_CID2066
+D 2pF capacitor, , NP0, 0603, CID2066
+K 2pF, capacitor, 0603, , NP0, CID2066
+$ENDCMP
+#
+#
+$CMP C_0805_6.8nF_CID2067
+D 6.8nF capacitor, , NP0, 0805, CID2067
+K 6.8nF, capacitor, 0805, , NP0, CID2067
+$ENDCMP
+#
+#
+$CMP C_0805_2.7nF_CID2068
+D 2.7nF capacitor, , NP0, 0805, CID2068
+K 2.7nF, capacitor, 0805, , NP0, CID2068
+$ENDCMP
+#
+#
+$CMP C_0805_330nF_CID2069
+D 330nF capacitor, , NP0, 0805, CID2069
+K 330nF, capacitor, 0805, , NP0, CID2069
+$ENDCMP
+#
+#
+$CMP C_1206_100uF_CID2070
+D 100uF capacitor, , X5R, 1206, CID2070
+K 100uF, capacitor, 1206, , X5R, CID2070
+$ENDCMP
+#
+#
+$CMP C_0402_1pF_CID2071
+D 1pF capacitor, +-0.1pF, NP0, 0402, CID2071
+K 1pF, capacitor, 0402, +-0.1pF, NP0, CID2071
+$ENDCMP
+#
+#
+$CMP C_0402_100nF_CID2072
+D 100nF capacitor, 10%, X7R, 0402, CID2072
+K 100nF, capacitor, 0402, 10%, X7R, CID2072
+$ENDCMP
+#
+#
+$CMP C_0402_1uF_CID2073
+D 1uF capacitor, 10%, X5R, 0402, CID2073
+K 1uF, capacitor, 0402, 10%, X5R, CID2073
+$ENDCMP
+#
+#
+$CMP C_0402_1.5pF_CID2074
+D 1.5pF capacitor, +-0.25pF, NP0, 0402, CID2074
+K 1.5pF, capacitor, 0402, +-0.25pF, NP0, CID2074
+$ENDCMP
+#
+#
+$CMP C_0402_12pF_CID2075
+D 12pF capacitor, 5%, NP0, 0402, CID2075
+K 12pF, capacitor, 0402, 5%, NP0, CID2075
+$ENDCMP
+#
+#
+$CMP C_0603_120pF_CID2076
+D 120pF capacitor, 5%, NP0, 0603, CID2076
+K 120pF, capacitor, 0603, 5%, NP0, CID2076
+$ENDCMP
+#
+#
+$CMP C_0805_10uF_CID2077
+D 10uF capacitor, 10%, X7R, 0805, CID2077
+K 10uF, capacitor, 0805, 10%, X7R, CID2077
+$ENDCMP
+#
+#
+$CMP C_1210_22uF_CID2078
+D 22uF capacitor, 10%, X7R, 1210, CID2078
+K 22uF, capacitor, 1210, 10%, X7R, CID2078
+$ENDCMP
+#
+#
+$CMP C_0805_10uF_CID2079
+D 10uF capacitor, 10%, X7R, 0805, CID2079
+K 10uF, capacitor, 0805, 10%, X7R, CID2079
+$ENDCMP
+#
+#
+$CMP C_0402_100nF_CID2080
+D 100nF capacitor, 10%, X7R, 0402, CID2080
+K 100nF, capacitor, 0402, 10%, X7R, CID2080
+$ENDCMP
+#
+#
+$CMP C_0402_47pF_CID2081
+D 47pF capacitor, 5%, C0G, 0402, CID2081
+K 47pF, capacitor, 0402, 5%, C0G, CID2081
+$ENDCMP
+#
+#
+$CMP C_0402_10nF_CID2082
+D 10nF capacitor, 10%, X7R, 0402, CID2082
+K 10nF, capacitor, 0402, 10%, X7R, CID2082
+$ENDCMP
+#
+#
+$CMP C_0402_15pF_CID2083
+D 15pF capacitor, 1%, C0G, 0402, CID2083
+K 15pF, capacitor, 0402, 1%, C0G, CID2083
+$ENDCMP
+#
+#
+$CMP C_0402_3.3pF_CID2084
+D 3.3pF capacitor, 0.25pF, C0G, 0402, CID2084
+K 3.3pF, capacitor, 0402, 0.25pF, C0G, CID2084
+$ENDCMP
+#
+#
+$CMP C_0402_1.8pF_CID2085
+D 1.8pF capacitor, 0.1pF, C0G, 0402, CID2085
+K 1.8pF, capacitor, 0402, 0.1pF, C0G, CID2085
+$ENDCMP
+#
+#
+$CMP C_0402_20pF_CID2086
+D 20pF capacitor, 5%, C0G, 0402, CID2086
+K 20pF, capacitor, 0402, 5%, C0G, CID2086
+$ENDCMP
+#
+#
+$CMP C_0402_1.5pF_CID2087
+D 1.5pF capacitor, 0.1pF, C0G, 0402, CID2087
+K 1.5pF, capacitor, 0402, 0.1pF, C0G, CID2087
+$ENDCMP
+#
+#
+$CMP C_0402_8.2pF_CID2088
+D 8.2pF capacitor, 0.25pF, C0G, 0402, CID2088
+K 8.2pF, capacitor, 0402, 0.25pF, C0G, CID2088
+$ENDCMP
+#
+#
+$CMP C_0402_10pF_CID2089
+D 10pF capacitor, 1%, C0G, 0402, CID2089
+K 10pF, capacitor, 0402, 1%, C0G, CID2089
+$ENDCMP
+#
+#
+$CMP C_0402_22pF_CID2090
+D 22pF capacitor, 5%, C0G, 0402, CID2090
+K 22pF, capacitor, 0402, 5%, C0G, CID2090
+$ENDCMP
+#
+#
+$CMP C_0402_0.5pF_CID2091
+D 0.5pF capacitor, 0.1pF, C0G, 0402, CID2091
+K 0.5pF, capacitor, 0402, 0.1pF, C0G, CID2091
+$ENDCMP
+#
+#
+$CMP C_0402_1nF_CID2092
+D 1nF capacitor, 1%, C0G, 0402, CID2092
+K 1nF, capacitor, 0402, 1%, C0G, CID2092
+$ENDCMP
+#
+#
+$CMP C_0402_2.4pF_CID2093
+D 2.4pF capacitor, 0.05pF, C0G, 0402, CID2093
+K 2.4pF, capacitor, 0402, 0.05pF, C0G, CID2093
+$ENDCMP
+#
+#
+$CMP C_TBD_TBD_CID2999
+D TBD capacitor, , TBD, TBD, CID2999
+K TBD, capacitor, TBD, , TBD, CID2999
+$ENDCMP
+#

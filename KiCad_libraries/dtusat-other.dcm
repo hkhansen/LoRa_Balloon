@@ -1,0 +1,50 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1_way_jumper
+D Generic symbol for a 1-way jumper
+K jumper
+$ENDCMP
+#
+$CMP 2_way_jumper
+D Generic symbol for a 2-way jumper
+K jumper
+$ENDCMP
+#
+$CMP COAX
+D Generic symbol for a coax connector
+$ENDCMP
+#
+$CMP EPS_Stamp
+D DTUSat EPS daughterboard (aux) pinout
+K EPS,daughter,aux
+$ENDCMP
+#
+$CMP MCTIMR-08_8WAY_SPDT_DIP-SWITCH
+D DIP/SIP Switch 8 way, SPDT, Tri-state series
+$ENDCMP
+#
+$CMP PV
+D Solar cell
+$ENDCMP
+#
+$CMP SSCB_stack
+D DTUSat bus
+K bus,SSCB
+$ENDCMP
+#
+$CMP SSCB_stack_FX23
+D DTUSat bus
+K bus,SSCB
+$ENDCMP
+#
+$CMP Testpoint
+D A generic testpoint
+K testpoint
+$ENDCMP
+#
+$CMP USB-C
+D USB Type-C connector
+K USB,USB-C
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+(module via-0.6mm-0.3mm_drill (layer F.Cu) (tedit 5975F12B)
+  (attr virtual)
+  (fp_text reference TP304 (at 0 0.85) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.1524)))
+  )
+  (fp_text value Testpoint (at 0 -1.1) (layer F.Fab) hide
+    (effects (font (size 0.8 0.8) (thickness 0.1524)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu *.Mask)
+    (zone_connect 2))
+)

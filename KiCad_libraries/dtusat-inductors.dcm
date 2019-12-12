@@ -1,0 +1,308 @@
+EESchema-DOCLIB  Version 2.0
+#
+#
+$CMP L_1210_10uH_CID3000
+D 10uH, inductor, 1210, , SMD, CID3000
+K 10uH, inductor, 1210, , SMD, CID3000
+$ENDCMP
+#
+#
+$CMP L___CID3001
+D , inductor, , , , CID3001
+K , inductor, , , , CID3001
+$ENDCMP
+#
+#
+$CMP L___CID3002
+D , inductor, , , , CID3002
+K , inductor, , , , CID3002
+$ENDCMP
+#
+#
+$CMP L_0603_3.3uH_CID3003
+D 3.3uH, inductor, 0603, , SMD, CID3003
+K 3.3uH, inductor, 0603, , SMD, CID3003
+$ENDCMP
+#
+#
+$CMP L_0603_3.3uH_CID3003a
+D 3.3uH, inductor, 0603, 10%, SMD, CID3003a
+K 3.3uH, inductor, 0603, 10%, SMD, CID3003a
+$ENDCMP
+#
+#
+$CMP L_0603_3.3uH_CID3003b
+D 3.3uH, inductor, 0603, 10%, SMD, CID3003b
+K 3.3uH, inductor, 0603, 10%, SMD, CID3003b
+$ENDCMP
+#
+#
+$CMP L_0603_33nH_CID3004
+D 33nH, inductor, 0603, 5%, SMD, CID3004
+K 33nH, inductor, 0603, 5%, SMD, CID3004
+$ENDCMP
+#
+#
+$CMP L_0603_10nH_CID3005
+D 10nH, inductor, 0603, 5%, SMD, CID3005
+K 10nH, inductor, 0603, 5%, SMD, CID3005
+$ENDCMP
+#
+#
+$CMP L_0603_10nH_CID3005a
+D 10nH, inductor, 0603, 5%, SMD, CID3005a
+K 10nH, inductor, 0603, 5%, SMD, CID3005a
+$ENDCMP
+#
+#
+$CMP L_0603_5.6nH_CID3006
+D 5.6nH, inductor, 0603, +/-30%nH, SMD, CID3006
+K 5.6nH, inductor, 0603, +/-30%nH, SMD, CID3006
+$ENDCMP
+#
+#
+$CMP L_0603_5.6nH_CID3006a
+D 5.6nH, inductor, 0603, +/-0.?, SMD, CID3006a
+K 5.6nH, inductor, 0603, +/-0.?, SMD, CID3006a
+$ENDCMP
+#
+#
+$CMP L_0603_1.0nH_CID3007
+D 1.0nH, inductor, 0603, +/-30%nH, SMD, CID3007
+K 1.0nH, inductor, 0603, +/-30%nH, SMD, CID3007
+$ENDCMP
+#
+#
+$CMP L_0603_1.0nH_CID3007a
+D 1.0nH, inductor, 0603, +/-30%nH, SMD, CID3007a
+K 1.0nH, inductor, 0603, +/-30%nH, SMD, CID3007a
+$ENDCMP
+#
+#
+$CMP L_0603_15nH_CID3008
+D 15nH, inductor, 0603, 5%, SMD, CID3008
+K 15nH, inductor, 0603, 5%, SMD, CID3008
+$ENDCMP
+#
+#
+$CMP L_0603_15nH_CID3008a
+D 15nH, inductor, 0603, 5%, SMD, CID3008a
+K 15nH, inductor, 0603, 5%, SMD, CID3008a
+$ENDCMP
+#
+#
+$CMP L_0603_1.2nH_CID3009
+D 1.2nH, inductor, 0603, , SMD, CID3009
+K 1.2nH, inductor, 0603, , SMD, CID3009
+$ENDCMP
+#
+#
+$CMP L_0603_1.2nH_CID3009a
+D 1.2nH, inductor, 0603, , SMD, CID3009a
+K 1.2nH, inductor, 0603, , SMD, CID3009a
+$ENDCMP
+#
+#
+$CMP L_0603_100nH_CID3010
+D 100nH, inductor, 0603, 5%, SMD, CID3010
+K 100nH, inductor, 0603, 5%, SMD, CID3010
+$ENDCMP
+#
+#
+$CMP L_0603_100nH_CID3010a
+D 100nH, inductor, 0603, , SMD, CID3010a
+K 100nH, inductor, 0603, , SMD, CID3010a
+$ENDCMP
+#
+#
+$CMP L_0603_22nH_CID3011
+D 22nH, inductor, 0603, 5%, SMD, CID3011
+K 22nH, inductor, 0603, 5%, SMD, CID3011
+$ENDCMP
+#
+#
+$CMP L_0805_33nH_CID3012
+D 33nH, inductor, 0805, 5%, SMD, CID3012
+K 33nH, inductor, 0805, 5%, SMD, CID3012
+$ENDCMP
+#
+#
+$CMP L_0805_1.5uH_CID3013
+D 1.5uH, inductor, 0805, , SMD, CID3013
+K 1.5uH, inductor, 0805, , SMD, CID3013
+$ENDCMP
+#
+#
+$CMP L_0603_33nH_CID3014
+D 33nH, inductor, 0603, 5%, SMD, CID3014
+K 33nH, inductor, 0603, 5%, SMD, CID3014
+$ENDCMP
+#
+#
+$CMP L_0805_10nH_CID3015
+D 10nH, inductor, 0805, 5%, SMD, CID3015
+K 10nH, inductor, 0805, 5%, SMD, CID3015
+$ENDCMP
+#
+#
+$CMP L_0805_10nH_CID3015a
+D 10nH, inductor, 0805, 2%, SMD, CID3015a
+K 10nH, inductor, 0805, 2%, SMD, CID3015a
+$ENDCMP
+#
+#
+$CMP L_0805_10nH_CID3015b
+D 10nH, inductor, 0805, 5%, SMD, CID3015b
+K 10nH, inductor, 0805, 5%, SMD, CID3015b
+$ENDCMP
+#
+#
+$CMP L_1008_5.6uH_CID3016
+D 5.6uH, inductor, 1008, 5%, SMD, CID3016
+K 5.6uH, inductor, 1008, 5%, SMD, CID3016
+$ENDCMP
+#
+#
+$CMP L_0603_200nH_CID3017
+D 200nH, inductor, 0603, 2%, SMD, CID3017
+K 200nH, inductor, 0603, 2%, SMD, CID3017
+$ENDCMP
+#
+#
+$CMP L_0402_200nH_CID3018
+D 200nH, inductor, 0402, 5%, SMD, CID3018
+K 200nH, inductor, 0402, 5%, SMD, CID3018
+$ENDCMP
+#
+#
+$CMP L_1206__CID3019
+D , inductor, 1206, , SMD, CID3019
+K , inductor, 1206, , SMD, CID3019
+$ENDCMP
+#
+#
+$CMP L_1008_1.3uH_CID3020
+D 1.3uH, inductor, 1008, 5%, SMD, CID3020
+K 1.3uH, inductor, 1008, 5%, SMD, CID3020
+$ENDCMP
+#
+#
+$CMP L_1008_33uH_CID3021
+D 33uH, inductor, 1008, 5%, SMD, CID3021
+K 33uH, inductor, 1008, 5%, SMD, CID3021
+$ENDCMP
+#
+#
+$CMP L_1008_39uH_CID3022
+D 39uH, inductor, 1008, 5%, SMD, CID3022
+K 39uH, inductor, 1008, 5%, SMD, CID3022
+$ENDCMP
+#
+#
+$CMP L_0805_680nH_CID3023
+D 680nH, inductor, 0805, 2%, SMD, CID3023
+K 680nH, inductor, 0805, 2%, SMD, CID3023
+$ENDCMP
+#
+#
+$CMP L_0805_1.8uH_CID3024
+D 1.8uH, inductor, 0805, 2%, SMD, CID3024
+K 1.8uH, inductor, 0805, 2%, SMD, CID3024
+$ENDCMP
+#
+#
+$CMP L_0805_2.7uH_CID3025
+D 2.7uH, inductor, 0805, 5%, SMD, CID3025
+K 2.7uH, inductor, 0805, 5%, SMD, CID3025
+$ENDCMP
+#
+#
+$CMP L_1008_5.6uH_CID3026
+D 5.6uH, inductor, 1008, , SMD, CID3026
+K 5.6uH, inductor, 1008, , SMD, CID3026
+$ENDCMP
+#
+#
+$CMP L_0805_4.7uH_CID3027
+D 4.7uH, inductor, 0805, 2%, SMD, CID3027
+K 4.7uH, inductor, 0805, 2%, SMD, CID3027
+$ENDCMP
+#
+#
+$CMP L_0805_6.8uH_CID3028
+D 6.8uH, inductor, 0805, 2%, SMD, CID3028
+K 6.8uH, inductor, 0805, 2%, SMD, CID3028
+$ENDCMP
+#
+#
+$CMP L_0603_1.5uH_CID3029
+D 1.5uH, inductor, 0603, 2%, SMD, CID3029
+K 1.5uH, inductor, 0603, 2%, SMD, CID3029
+$ENDCMP
+#
+#
+$CMP L_0603_5.6uH_CID3030
+D 5.6uH, inductor, 0603, 5%, SMD, CID3030
+K 5.6uH, inductor, 0603, 5%, SMD, CID3030
+$ENDCMP
+#
+#
+$CMP L_0402_1.2nH_CID3031
+D 1.2nH, inductor, 0402, +/-0.3nH, SMD, CID3031
+K 1.2nH, inductor, 0402, +/-0.3nH, SMD, CID3031
+$ENDCMP
+#
+#
+$CMP FB_0603_478nH_CID3032
+D 478nH, inductor, 0603, 25%, SMD, CID3032
+K 478nH, inductor, 0603, 25%, SMD, CID3032
+$ENDCMP
+#
+#
+$CMP L_TBD_10uH_CID3033
+D 10uH, inductor, TBD, 20%, SMD, CID3033
+K 10uH, inductor, TBD, 20%, SMD, CID3033
+$ENDCMP
+#
+#
+$CMP L_0402_33nH_CID3034
+D 33nH, inductor, 0402, 2nH, SMD, CID3034
+K 33nH, inductor, 0402, 2nH, SMD, CID3034
+$ENDCMP
+#
+#
+$CMP L_0402_2.7nH_CID3035
+D 2.7nH, inductor, 0402, 0.1nH, SMD, CID3035
+K 2.7nH, inductor, 0402, 0.1nH, SMD, CID3035
+$ENDCMP
+#
+#
+$CMP L_0402_5.6nH_CID3036
+D 5.6nH, inductor, 0402, 0.2nH, SMD, CID3036
+K 5.6nH, inductor, 0402, 0.2nH, SMD, CID3036
+$ENDCMP
+#
+#
+$CMP L_0402_10nH_CID3037
+D 10nH, inductor, 0402, 2%, SMD, CID3037
+K 10nH, inductor, 0402, 2%, SMD, CID3037
+$ENDCMP
+#
+#
+$CMP L_0402_8.2nH_CID3038
+D 8.2nH, inductor, 0402, 2%, SMD, CID3038
+K 8.2nH, inductor, 0402, 2%, SMD, CID3038
+$ENDCMP
+#
+#
+$CMP FB_0402_120R_CID3039
+D 120R, inductor, 0402, 25%, SMD, CID3039
+K 120R, inductor, 0402, 25%, SMD, CID3039
+$ENDCMP
+#
+#
+$CMP L_TBD_TBD_CID3999
+D TBD, inductor, TBD, , TBD, CID3999
+K TBD, inductor, TBD, , TBD, CID3999
+$ENDCMP
+#
