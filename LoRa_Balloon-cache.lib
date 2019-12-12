@@ -660,6 +660,30 @@ X ~ 2 0 -100 50 U 35 35 1 1 P
 ENDDRAW
 ENDDEF
 #
+# dtusat-inductors_L_0402_33nH_CID3034
+#
+DEF dtusat-inductors_L_0402_33nH_CID3034 L 0 0 N Y 1 F N
+F0 "L" -50 0 35 V V C CNN
+F1 "dtusat-inductors_L_0402_33nH_CID3034" 100 0 35 V I C CNN
+F2 "dtusat:L0402" 300 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "33nH" 50 0 35 V V C CNN "Component value"
+F5 "3034" 150 0 35 V I C CNN "CID"
+F6 "SMD" 200 0 35 V I C CNN "Technology"
+F7 "2nH" 250 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:L0402
+$ENDFPLIST
+DRAW
+A 0 -37 12 901 -901 0 1 0 N 0 -25 0 -50
+A 0 -12 12 901 -901 0 1 0 N 0 0 0 -25
+A 0 13 12 901 -901 0 1 0 N 0 25 0 0
+A 0 38 12 901 -901 0 1 0 N 0 50 0 25
+X ~ 1 0 100 50 D 35 35 1 1 P
+X ~ 2 0 -100 50 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
 # dtusat-inductors_L_0402_5.6nH_CID3036
 #
 DEF dtusat-inductors_L_0402_5.6nH_CID3036 L 0 0 N Y 1 F N
@@ -697,30 +721,6 @@ F6 "SMD" 200 0 35 V I C CNN "Technology"
 F7 "2%" 250 0 35 V I C CNN "Tolerance"
 $FPLIST
  dtusat:L0402
-$ENDFPLIST
-DRAW
-A 0 -37 12 901 -901 0 1 0 N 0 -25 0 -50
-A 0 -12 12 901 -901 0 1 0 N 0 0 0 -25
-A 0 13 12 901 -901 0 1 0 N 0 25 0 0
-A 0 38 12 901 -901 0 1 0 N 0 50 0 25
-X ~ 1 0 100 50 D 35 35 1 1 P
-X ~ 2 0 -100 50 U 35 35 1 1 P
-ENDDRAW
-ENDDEF
-#
-# dtusat-inductors_L_0603_33nH_CID3014
-#
-DEF dtusat-inductors_L_0603_33nH_CID3014 L 0 0 N Y 1 F N
-F0 "L" -50 0 35 V V C CNN
-F1 "dtusat-inductors_L_0603_33nH_CID3014" 100 0 35 V I C CNN
-F2 "dtusat:L0603" 300 0 35 V I C CNN
-F3 "" 0 0 30 H V C CNN
-F4 "33nH" 50 0 35 V V C CNN "Component value"
-F5 "3014" 150 0 35 V I C CNN "CID"
-F6 "SMD" 200 0 35 V I C CNN "Technology"
-F7 "5%" 250 0 35 V I C CNN "Tolerance"
-$FPLIST
- dtusat:L0603
 $ENDFPLIST
 DRAW
 A 0 -37 12 901 -901 0 1 0 N 0 -25 0 -50

@@ -83,11 +83,7 @@ Wire Wire Line
 Wire Wire Line
 	1242 1065 1242 1240
 Wire Wire Line
-	1517 990  1042 990 
-Wire Wire Line
 	1042 990  1042 1240
-Wire Wire Line
-	1517 915  842  915 
 Wire Wire Line
 	842  915  842  1240
 Wire Wire Line
@@ -183,21 +179,6 @@ F 3 "" H 1392 2915 35  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2542 1815
-$Comp
-L dtusat-inductors:L_0603_33nH_CID3014 L2
-U 1 1 5DF24B92
-P 2017 2890
-F 0 "L2" V 1974 2889 35  0000 C CNN
-F 1 "L_0603_33nH_CID3014" V 2117 2890 35  0001 C CNN
-F 2 "dtusat:L0603" V 2317 2890 35  0001 C CNN
-F 3 "" H 2017 2890 30  0000 C CNN
-F 4 "33nH" V 2049 2890 35  0000 C CNN "Component value"
-F 5 "3014" V 2167 2890 35  0001 C CNN "CID"
-F 6 "SMD" V 2217 2890 35  0001 C CNN "Technology"
-F 7 "5%" V 2267 2890 35  0001 C CNN "Tolerance"
-	1    2017 2890
-	0    1    1    0   
-$EndComp
 $Comp
 L dtusat-inductors:L_0402_2.7nH_CID3035 L4
 U 1 1 5DF26C3D
@@ -311,15 +292,13 @@ Wire Wire Line
 	2542 2490 3192 2490
 Wire Wire Line
 	1517 2890 1517 2715
-Wire Wire Line
-	1517 2890 1917 2890
 Connection ~ 1517 2715
 Text Label 3192 2640 2    35   ~ 0
 SX1272_RF_RX
 Wire Wire Line
 	2542 2640 3192 2640
 Wire Wire Line
-	2117 2890 2742 2890
+	2117 2890 2118 2890
 Wire Wire Line
 	2742 2715 2742 2890
 Connection ~ 2742 2890
@@ -379,9 +358,7 @@ $EndComp
 Text Label 2892 1515 2    35   ~ 0
 Reset_SX
 Wire Wire Line
-	2542 1440 2892 1440
-Wire Wire Line
-	2542 1515 2892 1515
+	2542 1515 2625 1515
 $Comp
 L dtusat-power:GND #PWR014
 U 1 1 5DF4A280
@@ -1724,7 +1701,73 @@ Wire Wire Line
 	10110 2620 10170 2620
 NoConn ~ 9225 2300
 Text Label 9460 2100 2    35   ~ 0
-ResetSX
+RXTX_SW
 Wire Wire Line
 	9225 2100 9460 2100
+$Comp
+L dtusat-power:GND #PWR0101
+U 1 1 5DF275AA
+P 722 3930
+F 0 "#PWR0101" H 722 3680 35  0001 C CNN
+F 1 "GND" H 722 3768 35  0000 C CNN
+F 2 "" H 722 3930 35  0000 C CNN
+F 3 "" H 722 3930 35  0000 C CNN
+	1    722  3930
+	1    0    0    -1  
+$EndComp
+$Comp
+L dtusat-inductors:L_0402_33nH_CID3034 L2
+U 1 1 5DF319CF
+P 2018 2890
+F 0 "L2" V 1974 2890 35  0000 C CNN
+F 1 "L_0402_33nH_CID3034" V 2118 2890 35  0001 C CNN
+F 2 "dtusat:L0402" V 2318 2890 35  0001 C CNN
+F 3 "" H 2018 2890 30  0000 C CNN
+F 4 "33nH" V 2052 2890 35  0000 C CNN "Component value"
+F 5 "3034" V 2168 2890 35  0001 C CNN "CID"
+F 6 "SMD" V 2218 2890 35  0001 C CNN "Technology"
+F 7 "2nH" V 2268 2890 35  0001 C CNN "Tolerance"
+	1    2018 2890
+	0    1    1    0   
+$EndComp
+Connection ~ 2118 2890
+Wire Wire Line
+	2118 2890 2742 2890
+Wire Wire Line
+	1517 2890 1917 2890
+Wire Wire Line
+	2542 1440 2625 1440
+Wire Wire Line
+	2625 1515 2625 1440
+Connection ~ 2625 1515
+Wire Wire Line
+	2625 1515 2892 1515
+Connection ~ 2625 1440
+Wire Wire Line
+	2625 1440 2892 1440
+Text Label 8500 4690 2    35   ~ 0
+Reset
+Wire Wire Line
+	8360 4690 8500 4690
+Wire Wire Line
+	1517 990  1042 990 
+Wire Wire Line
+	842  915  1442 915 
+$Comp
+L dtusat-power:+3.3V #PWR?
+U 1 1 5E0E5CD7
+P 1443 914
+F 0 "#PWR?" H 1443 764 35  0001 C CNN
+F 1 "+3.3V" H 1450 1076 35  0000 C CNN
+F 2 "" H 1443 914 35  0000 C CNN
+F 3 "" H 1443 914 35  0000 C CNN
+	1    1443 914 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1442 1140 1442 915 
+Connection ~ 1442 1140
+Connection ~ 1442 915 
+Wire Wire Line
+	1442 915  1517 915 
 $EndSCHEMATC
