@@ -29,7 +29,7 @@ ENDDEF
 #
 # 1_way_jumper
 #
-DEF ~1_way_jumper JP 0 40 Y Y 1 F N
+DEF 1_way_jumper JP 0 40 Y Y 1 F N
 F0 "JP" 0 50 35 H V C CNN
 F1 "1_way_jumper" 0 100 35 H I C CNN
 F2 "" 0 0 35 H I C CNN
@@ -94,7 +94,7 @@ ENDDEF
 #
 # 2_way_jumper
 #
-DEF ~2_way_jumper JP 0 40 Y Y 1 F N
+DEF 2_way_jumper JP 0 40 Y Y 1 F N
 F0 "JP" 0 50 35 H V C CNN
 F1 "2_way_jumper" 0 100 35 H I C CNN
 F2 "" 0 0 35 H I C CNN
@@ -126,6 +126,21 @@ X ~ 1 -100 75 100 R 35 35 1 1 I
 X ~ 2 -100 0 100 R 35 35 1 1 I
 X ~ 3 -100 -75 100 R 35 35 1 1 I
 X ~ 4 -100 -150 100 R 35 35 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 868MHz_ceramic_antenna
+#
+DEF 868MHz_ceramic_antenna A? 0 40 Y Y 1 F N
+F0 "A?" 10 -290 39 H V C CNN
+F1 "868MHz_ceramic_antenna" 50 -220 39 H V C CNN
+F2 "" 0 0 39 H I C CNN
+F3 "" 0 0 39 H I C CNN
+DRAW
+P 2 0 1 0 0 0 -40 70 N
+P 2 0 1 0 0 0 0 80 N
+P 2 0 1 0 0 0 40 70 N
+X ~ 1 0 -70 71 U 20 35 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -518,7 +533,7 @@ ENDDEF
 #
 # Testpoint
 #
-DEF ~Testpoint TP 0 40 N N 1 F N
+DEF Testpoint TP 0 40 N N 1 F N
 F0 "TP" 0 125 35 H V C CNN
 F1 "Testpoint" 0 175 35 H I C CNN
 F2 "" 50 0 35 H I C CNN

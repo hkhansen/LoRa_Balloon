@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name dtusat)(type KiCad)(uri C:/Users/Lenovo/Desktop/LoRa_Balloon/KiCad_libraries/dtusat.pretty)(options "")(descr ""))
+  (lib (name sparkfun)(type KiCad)(uri C:/Users/Lenovo/Desktop/LoRa_Balloon/KiCad_libraries/sparkfun.pretty)(options "")(descr ""))
+)

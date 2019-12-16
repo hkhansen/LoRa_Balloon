@@ -1,0 +1,842 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ATMEGA328P-AU_ATMEGA328P-AU
+#
+DEF ATMEGA328P-AU_ATMEGA328P-AU U 0 40 Y Y 1 L N
+F0 "U" -401 1152 50 H V L BNN
+F1 "ATMEGA328P-AU_ATMEGA328P-AU" -400 -1251 50 H V L BNN
+F2 "QFP80P900X900X120-32N" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "Microchip" 0 0 50 H I L BNN
+F5 "TQFP-32 Microchip" 0 0 50 H I L BNN
+F6 "Unavailable" 0 0 50 H I L BNN
+F7 "Microcontroller Mcu, 8 Bit, Atmega, 20mhz, Tqfp-32" 0 0 50 H I L BNN
+F8 "ATMEGA328P-AU" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 -1100 -400 1100 N
+P 2 0 0 10 -400 1100 400 1100 N
+P 2 0 0 10 400 -1100 -400 -1100 N
+P 2 0 0 10 400 1100 400 -1100 N
+X PD3 1 600 400 200 L 40 40 0 0 B
+X PD6 10 600 100 200 L 40 40 0 0 B
+X PD7 11 600 0 200 L 40 40 0 0 B
+X PB0 12 -600 700 200 R 40 40 0 0 B
+X PB1 13 -600 600 200 R 40 40 0 0 B
+X PB2 14 -600 500 200 R 40 40 0 0 B
+X PB3 15 -600 400 200 R 40 40 0 0 B
+X PB4 16 -600 300 200 R 40 40 0 0 B
+X PB5 17 -600 200 200 R 40 40 0 0 B
+X AVCC 18 600 1000 200 L 40 40 0 0 W
+X ADC6 19 600 -200 200 L 40 40 0 0 B
+X PD4 2 600 300 200 L 40 40 0 0 B
+X AREF 20 -600 900 200 R 40 40 0 0 I
+X GND 21 600 -1000 200 L 40 40 0 0 W
+X ADC7 22 600 -300 200 L 40 40 0 0 B
+X PC0 23 -600 -200 200 R 40 40 0 0 B
+X PC1 24 -600 -300 200 R 40 40 0 0 B
+X PC2 25 -600 -400 200 R 40 40 0 0 B
+X PC3 26 -600 -500 200 R 40 40 0 0 B
+X PC4 27 -600 -600 200 R 40 40 0 0 B
+X PC5 28 -600 -700 200 R 40 40 0 0 B
+X PC6/!RESET 29 -600 -800 200 R 40 40 0 0 B
+X GND 3 600 -1000 200 L 40 40 0 0 W
+X PD0 30 600 700 200 L 40 40 0 0 B
+X PD1 31 600 600 200 L 40 40 0 0 B
+X PD2 32 600 500 200 L 40 40 0 0 B
+X VCC 4 600 900 200 L 40 40 0 0 W
+X GND 5 600 -1000 200 L 40 40 0 0 W
+X VCC 6 600 900 200 L 40 40 0 0 W
+X PB6 7 -600 100 200 R 40 40 0 0 B
+X PB7 8 -600 0 200 R 40 40 0 0 B
+X PD5 9 600 200 200 L 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+# connectors_Qwicc_6-pin
+#
+DEF connectors_Qwicc_6-pin J 0 40 Y Y 1 F N
+F0 "J" -250 -100 35 H V C CNN
+F1 "connectors_Qwicc_6-pin" 0 -200 35 H V C CNN
+F2 "" -250 -100 35 H I C CNN
+F3 "" -250 -100 35 H I C CNN
+DRAW
+S -300 100 300 -150 0 1 0 N
+X Rx 1 -250 200 100 D 50 50 1 1 O
+X Tx 2 -150 200 100 D 50 50 1 1 I
+X Reset 3 -50 200 100 D 50 50 1 1 O
+X ~ 4 50 200 100 D 50 50 1 1 N
+X Vcc 5 150 200 100 D 50 50 1 1 O
+X GND 6 250 200 100 D 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_0.5pF_CID2091
+#
+DEF dtusat-capacitors_C_0402_0.5pF_CID2091 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_0.5pF_CID2091" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "0.5pF" 75 0 35 V V C CNN "Component value"
+F5 "2091" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "0.1pF" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_1.5pF_CID2087
+#
+DEF dtusat-capacitors_C_0402_1.5pF_CID2087 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_1.5pF_CID2087" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "1.5pF" 75 0 35 V V C CNN "Component value"
+F5 "2087" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "0.1pF" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_1.8pF_CID2085
+#
+DEF dtusat-capacitors_C_0402_1.8pF_CID2085 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_1.8pF_CID2085" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "1.8pF" 75 0 35 V V C CNN "Component value"
+F5 "2085" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "0.1pF" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_100nF_CID2072
+#
+DEF dtusat-capacitors_C_0402_100nF_CID2072 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_100nF_CID2072" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "100nF" 75 0 35 V V C CNN "Component value"
+F5 "2072" 175 0 35 V I C CNN "CID"
+F6 "X7R" 225 0 35 V I C CNN "Dielectric"
+F7 "10%" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_100nF_CID2080
+#
+DEF dtusat-capacitors_C_0402_100nF_CID2080 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_100nF_CID2080" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "100nF" 75 0 35 V V C CNN "Component value"
+F5 "2080" 175 0 35 V I C CNN "CID"
+F6 "X7R" 225 0 35 V I C CNN "Dielectric"
+F7 "10%" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_10nF_CID2082
+#
+DEF dtusat-capacitors_C_0402_10nF_CID2082 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_10nF_CID2082" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "10nF" 75 0 35 V V C CNN "Component value"
+F5 "2082" 175 0 35 V I C CNN "CID"
+F6 "X7R" 225 0 35 V I C CNN "Dielectric"
+F7 "10%" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_10pF_CID2089
+#
+DEF dtusat-capacitors_C_0402_10pF_CID2089 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_10pF_CID2089" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "10pF" 75 0 35 V V C CNN "Component value"
+F5 "2089" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "1%" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_15pF_CID2083
+#
+DEF dtusat-capacitors_C_0402_15pF_CID2083 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_15pF_CID2083" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "15pF" 75 0 35 V V C CNN "Component value"
+F5 "2083" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "1%" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_1nF_CID2092
+#
+DEF dtusat-capacitors_C_0402_1nF_CID2092 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_1nF_CID2092" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "1nF" 75 0 35 V V C CNN "Component value"
+F5 "2092" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "1%" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_2.4pF_CID2093
+#
+DEF dtusat-capacitors_C_0402_2.4pF_CID2093 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_2.4pF_CID2093" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "2.4pF" 75 0 35 V V C CNN "Component value"
+F5 "2093" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "0.05pF" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_20pF_CID2086
+#
+DEF dtusat-capacitors_C_0402_20pF_CID2086 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_20pF_CID2086" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "20pF" 75 0 35 V V C CNN "Component value"
+F5 "2086" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "5%" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_22pF_CID2090
+#
+DEF dtusat-capacitors_C_0402_22pF_CID2090 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_22pF_CID2090" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "22pF" 75 0 35 V V C CNN "Component value"
+F5 "2090" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "5%" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_3.3pF_CID2084
+#
+DEF dtusat-capacitors_C_0402_3.3pF_CID2084 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_3.3pF_CID2084" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "3.3pF" 75 0 35 V V C CNN "Component value"
+F5 "2084" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "0.25pF" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_47pF_CID2081
+#
+DEF dtusat-capacitors_C_0402_47pF_CID2081 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_47pF_CID2081" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "47pF" 75 0 35 V V C CNN "Component value"
+F5 "2081" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "5%" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0402_8.2pF_CID2088
+#
+DEF dtusat-capacitors_C_0402_8.2pF_CID2088 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0402_8.2pF_CID2088" 125 0 35 V I C CNN
+F2 "dtusat:C0402" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "8.2pF" 75 0 35 V V C CNN "Component value"
+F5 "2088" 175 0 35 V I C CNN "CID"
+F6 "C0G" 225 0 35 V I C CNN "Dielectric"
+F7 "0.25pF" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0603_18pF_CID2019
+#
+DEF dtusat-capacitors_C_0603_18pF_CID2019 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0603_18pF_CID2019" 125 0 35 V I C CNN
+F2 "dtusat:C0603" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "18pF" 75 0 35 V V C CNN "Component value"
+F5 "2019" 175 0 35 V I C CNN "CID"
+F6 "NP0" 225 0 35 V I C CNN "Dielectric"
+F7 "5%" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0603
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-capacitors_C_0805_10uF_CID2079
+#
+DEF dtusat-capacitors_C_0805_10uF_CID2079 C 0 0 N Y 1 F N
+F0 "C" -75 0 35 V V C CNN
+F1 "dtusat-capacitors_C_0805_10uF_CID2079" 125 0 35 V I C CNN
+F2 "dtusat:C0805" 325 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "10uF" 75 0 35 V V C CNN "Component value"
+F5 "2079" 175 0 35 V I C CNN "CID"
+F6 "X7R" 225 0 35 V I C CNN "Dielectric"
+F7 "10%" 275 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:C0805
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -40 -10 40 -10 N
+P 2 0 1 0 -40 10 40 10 N
+P 2 0 1 0 0 -10 0 -30 N
+P 2 0 1 0 0 30 0 10 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-ic_7A-12.000MAAJ-T_CID117
+#
+DEF dtusat-ic_7A-12.000MAAJ-T_CID117 X 0 0 N Y 1 F N
+F0 "X" -100 0 35 V V C CNN
+F1 "dtusat-ic_7A-12.000MAAJ-T_CID117" 250 0 35 V I C CNN
+F2 "" -70 0 30 V V C CNN
+F3 "http://www.farnell.com/datasheets/1041607.pdf" 600 -125 35 V I C CNN
+F4 "117" 300 0 35 V I C CNN "CID"
+F5 "12 MHz" 100 0 35 V V C CNN "Component value"
+$FPLIST
+ dtusat:SMT50X32-2
+$ENDFPLIST
+DRAW
+S -40 10 40 -10 0 1 0 F
+P 2 0 1 0 -40 -25 40 -25 N
+P 2 0 1 0 -40 25 40 25 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 2 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-ic_PE4259_CID105
+#
+DEF dtusat-ic_PE4259_CID105 U 0 1 Y Y 1 F N
+F0 "U" -125 200 35 H V C CNN
+F1 "dtusat-ic_PE4259_CID105" 0 -300 35 H I C CNN
+F2 "dtusat:SC70-6" 0 -400 35 H V C CNN
+F3 "http://www.psemi.com/pdf/datasheets/pe4259ds.pdf" 0 -350 35 H I C CNN
+F4 "105" 0 -450 35 H I C CNN "CID"
+$FPLIST
+ dtusat:SC70-6
+$ENDFPLIST
+DRAW
+S 175 150 -175 -250 0 1 0 N
+X RF1 1 275 100 100 L 35 35 1 1 O
+X GND 2 -275 -200 100 R 35 35 1 1 W
+X RF2 3 275 25 100 L 35 35 1 1 O
+X CTRL 4 275 -200 100 L 35 35 1 1 I
+X RFC 5 275 -50 100 L 35 35 1 1 I
+X VCC 6 -275 100 100 R 35 35 1 1 W
+ENDDRAW
+ENDDEF
+#
+# dtusat-ic_SKY67013-396LF_CID141
+#
+DEF dtusat-ic_SKY67013-396LF_CID141 U 0 1 Y Y 1 F N
+F0 "U" -250 225 35 H V C CNN
+F1 "dtusat-ic_SKY67013-396LF_CID141" 25 -350 35 H I C CNN
+F2 "dtusat:DFN-8" 25 -450 35 H V C CNN
+F3 "http://www.skyworksinc.com/uploads/documents/SKY67150_396LF_202922H.pdf" 25 -400 35 H I C CNN
+F4 "141" 25 -500 35 H I C CNN "CID"
+$FPLIST
+ dtusat:DFN-8
+$ENDFPLIST
+DRAW
+S -275 175 250 -150 0 1 0 N
+X VBIAS 1 -375 125 100 R 35 35 1 1 I
+X RF_IN 2 -375 50 100 R 35 35 1 1 I
+X ~ 3 -375 -25 100 R 35 35 1 1 P
+X ~ 4 -375 -100 100 R 35 35 1 1 P
+X ~ 5 350 -100 100 L 35 35 1 1 P
+X ~ 6 350 -25 100 L 35 35 1 1 P
+X RF_OUT/VDD 7 350 50 100 L 35 35 1 1 O
+X ~ 8 350 125 100 L 35 35 1 1 P
+X ~ 9 0 -250 100 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-ic_SX1272IMLTRICT-ND_CID104
+#
+DEF dtusat-ic_SX1272IMLTRICT-ND_CID104 U 0 1 Y Y 1 F N
+F0 "U" -375 1050 35 H V C CNN
+F1 "dtusat-ic_SX1272IMLTRICT-ND_CID104" 0 -950 35 H I C CNN
+F2 "dtusat:QFN-28" 0 -1050 35 H V C CNN
+F3 "http://www.semtech.com/images/datasheet/sx1272.pdf" 0 -1000 35 H I C CNN
+F4 "104" 0 -1100 35 H I C CNN "CID"
+$FPLIST
+ dtusat:QFN-28
+$ENDFPLIST
+DRAW
+S 400 1000 -425 -900 0 1 0 N
+X VBAT1 1 -525 950 100 R 35 35 1 1 W
+X DIO1 10 500 875 100 L 35 35 1 1 B
+X DIO2 11 500 800 100 L 35 35 1 1 B
+X DIO3 12 500 725 100 L 35 35 1 1 B
+X DIO4 13 500 650 100 L 35 35 1 1 B
+X DIO5 14 500 575 100 L 35 35 1 1 B
+X VBAT2 15 -525 725 100 R 35 35 1 1 W
+X GND 16 -525 100 100 R 35 35 1 1 W
+X SCK 17 500 -100 100 L 35 35 1 1 B
+X MISO 18 500 -175 100 L 35 35 1 1 O
+X MOSI 19 500 -250 100 L 35 35 1 1 I
+X VR_ANA 2 -525 875 100 R 35 35 1 1 W
+X NSS 20 500 -325 100 L 35 35 1 1 I
+X RF_MOD 21 500 50 100 L 35 35 1 1 N
+X GND 22 -525 25 100 R 35 35 1 1 W
+X RXTX 23 500 425 100 L 35 35 1 1 O
+X RFO 24 500 -700 100 L 35 35 1 1 O
+X RFI 25 500 -775 100 L 35 35 1 1 I
+X GND 26 -525 -50 100 R 35 35 1 1 W
+X PA_BOOST 27 500 -850 100 L 35 35 1 1 O
+X VR_PA 28 -525 -850 100 R 35 35 1 1 w
+X GND 29 -525 175 100 R 35 35 1 1 W
+X VR_DIG 3 -525 800 100 R 35 35 1 1 W
+X XTA 4 500 -475 100 L 35 35 1 1 I
+X XTB 5 500 -550 100 L 35 35 1 1 O
+X Reset 6 500 350 100 L 35 35 1 1 I
+X NC 7 500 200 100 L 35 35 1 1 P
+X NC 8 500 125 100 L 35 35 1 1 P
+X DIO0 9 500 950 100 L 35 35 1 1 B
+ENDDRAW
+ENDDEF
+#
+# dtusat-ic_X1E0000210162_CID142
+#
+DEF dtusat-ic_X1E0000210162_CID142 X 0 0 N Y 1 F N
+F0 "X" -150 0 35 V V C CNN
+F1 "dtusat-ic_X1E0000210162_CID142" 250 0 35 V I C CNN
+F2 "" -70 0 30 V V C CNN
+F3 "http://www.farnell.com/datasheets/526621.pdf?_ga=1.197279019.583306404.1491382241" 0 0 35 V I C CNN
+F4 "142" 300 0 35 V I C CNN "CID"
+$FPLIST
+ dtusat:
+$ENDFPLIST
+DRAW
+S -40 10 40 -10 0 1 0 F
+P 2 0 1 0 -40 -25 40 -25 N
+P 2 0 1 0 -40 25 40 25 N
+X ~ 1 0 100 73 D 35 35 1 1 P
+X ~ 3 0 -100 73 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-inductors_L_0402_10nH_CID3037
+#
+DEF dtusat-inductors_L_0402_10nH_CID3037 L 0 0 N Y 1 F N
+F0 "L" -50 0 35 V V C CNN
+F1 "dtusat-inductors_L_0402_10nH_CID3037" 100 0 35 V I C CNN
+F2 "dtusat:L0402" 300 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "10nH" 50 0 35 V V C CNN "Component value"
+F5 "3037" 150 0 35 V I C CNN "CID"
+F6 "SMD" 200 0 35 V I C CNN "Technology"
+F7 "2%" 250 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:L0402
+$ENDFPLIST
+DRAW
+A 0 -37 12 901 -901 0 1 0 N 0 -25 0 -50
+A 0 -12 12 901 -901 0 1 0 N 0 0 0 -25
+A 0 13 12 901 -901 0 1 0 N 0 25 0 0
+A 0 38 12 901 -901 0 1 0 N 0 50 0 25
+X ~ 1 0 100 50 D 35 35 1 1 P
+X ~ 2 0 -100 50 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-inductors_L_0402_2.7nH_CID3035
+#
+DEF dtusat-inductors_L_0402_2.7nH_CID3035 L 0 0 N Y 1 F N
+F0 "L" -50 0 35 V V C CNN
+F1 "dtusat-inductors_L_0402_2.7nH_CID3035" 100 0 35 V I C CNN
+F2 "dtusat:L0402" 300 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "2.7nH" 50 0 35 V V C CNN "Component value"
+F5 "3035" 150 0 35 V I C CNN "CID"
+F6 "SMD" 200 0 35 V I C CNN "Technology"
+F7 "0.1nH" 250 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:L0402
+$ENDFPLIST
+DRAW
+A 0 -37 12 901 -901 0 1 0 N 0 -25 0 -50
+A 0 -12 12 901 -901 0 1 0 N 0 0 0 -25
+A 0 13 12 901 -901 0 1 0 N 0 25 0 0
+A 0 38 12 901 -901 0 1 0 N 0 50 0 25
+X ~ 1 0 100 50 D 35 35 1 1 P
+X ~ 2 0 -100 50 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-inductors_L_0402_33nH_CID3034
+#
+DEF dtusat-inductors_L_0402_33nH_CID3034 L 0 0 N Y 1 F N
+F0 "L" -50 0 35 V V C CNN
+F1 "dtusat-inductors_L_0402_33nH_CID3034" 100 0 35 V I C CNN
+F2 "dtusat:L0402" 300 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "33nH" 50 0 35 V V C CNN "Component value"
+F5 "3034" 150 0 35 V I C CNN "CID"
+F6 "SMD" 200 0 35 V I C CNN "Technology"
+F7 "2nH" 250 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:L0402
+$ENDFPLIST
+DRAW
+A 0 -37 12 901 -901 0 1 0 N 0 -25 0 -50
+A 0 -12 12 901 -901 0 1 0 N 0 0 0 -25
+A 0 13 12 901 -901 0 1 0 N 0 25 0 0
+A 0 38 12 901 -901 0 1 0 N 0 50 0 25
+X ~ 1 0 100 50 D 35 35 1 1 P
+X ~ 2 0 -100 50 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-inductors_L_0402_5.6nH_CID3036
+#
+DEF dtusat-inductors_L_0402_5.6nH_CID3036 L 0 0 N Y 1 F N
+F0 "L" -50 0 35 V V C CNN
+F1 "dtusat-inductors_L_0402_5.6nH_CID3036" 100 0 35 V I C CNN
+F2 "dtusat:L0402" 300 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "5.6nH" 50 0 35 V V C CNN "Component value"
+F5 "3036" 150 0 35 V I C CNN "CID"
+F6 "SMD" 200 0 35 V I C CNN "Technology"
+F7 "0.2nH" 250 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:L0402
+$ENDFPLIST
+DRAW
+A 0 -37 12 901 -901 0 1 0 N 0 -25 0 -50
+A 0 -12 12 901 -901 0 1 0 N 0 0 0 -25
+A 0 13 12 901 -901 0 1 0 N 0 25 0 0
+A 0 38 12 901 -901 0 1 0 N 0 50 0 25
+X ~ 1 0 100 50 D 35 35 1 1 P
+X ~ 2 0 -100 50 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-inductors_L_0402_8.2nH_CID3038
+#
+DEF dtusat-inductors_L_0402_8.2nH_CID3038 L 0 0 N Y 1 F N
+F0 "L" -50 0 35 V V C CNN
+F1 "dtusat-inductors_L_0402_8.2nH_CID3038" 100 0 35 V I C CNN
+F2 "dtusat:L0402" 300 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "8.2nH" 50 0 35 V V C CNN "Component value"
+F5 "3038" 150 0 35 V I C CNN "CID"
+F6 "SMD" 200 0 35 V I C CNN "Technology"
+F7 "2%" 250 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:L0402
+$ENDFPLIST
+DRAW
+A 0 -37 12 901 -901 0 1 0 N 0 -25 0 -50
+A 0 -12 12 901 -901 0 1 0 N 0 0 0 -25
+A 0 13 12 901 -901 0 1 0 N 0 25 0 0
+A 0 38 12 901 -901 0 1 0 N 0 50 0 25
+X ~ 1 0 100 50 D 35 35 1 1 P
+X ~ 2 0 -100 50 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-other_COAX
+#
+DEF dtusat-other_COAX J 0 40 N Y 1 F N
+F0 "J" 0 100 35 H V C CNN
+F1 "dtusat-other_COAX" 150 0 35 H V C CNN
+F2 "" -100 0 60 H V C CNN
+F3 "" 0 100 60 H V C CNN
+DRAW
+A 0 0 75 1568 900 0 1 0 N -70 30 0 75
+A 0 0 75 -899 899 0 1 0 N 0 -75 0 75
+A 0 1 75 -900 -1568 0 1 0 N 0 -74 -70 -29
+C 0 0 25 0 1 0 N
+X ~ 1 -125 0 100 R 35 35 1 1 I
+X ~ 2 0 -125 50 U 35 35 1 1 W
+ENDDRAW
+ENDDEF
+#
+# dtusat-other_EMI_shield
+#
+DEF dtusat-other_EMI_shield H 0 40 Y Y 1 F N
+F0 "H" -100 100 35 H V C CNN
+F1 "dtusat-other_EMI_shield" -50 -125 35 H V C CNN
+F2 "" 0 0 35 H I C CNN
+F3 "" 0 0 35 H I C CNN
+DRAW
+S 25 75 -150 -75 0 1 0 N
+X GND 1 100 0 73 L 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-power_+3.3V
+#
+DEF dtusat-power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 35 H I C CNN
+F1 "dtusat-power_+3.3V" 0 140 35 H V C CNN
+F2 "" 0 0 35 H V C CNN
+F3 "" 0 0 35 H V C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 35 35 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# dtusat-power_GND
+#
+DEF dtusat-power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 35 H I C CNN
+F1 "dtusat-power_GND" 0 -150 35 H V C CNN
+F2 "" 0 0 35 H V C CNN
+F3 "" 0 0 35 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 35 35 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# dtusat-resistors_R_0402_10k_CID1101
+#
+DEF dtusat-resistors_R_0402_10k_CID1101 R 0 0 N Y 1 F N
+F0 "R" -50 0 35 V V C CNN
+F1 "dtusat-resistors_R_0402_10k_CID1101" 100 0 35 V I C CNN
+F2 "dtusat:R0402" 300 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "10k" 50 0 35 V V C CNN "Component value"
+F5 "1101" 150 0 35 V I C CNN "CID"
+F6 "Thickfilm" 200 0 35 V I C CNN "Technology"
+F7 "1%" 250 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:R0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -40 N
+P 2 0 1 0 0 40 0 50 N
+P 2 0 1 0 20 30 0 40 N
+P 5 0 1 0 20 30 -15 10 20 -10 -15 -30 0 -40 N
+X ~ 1 0 100 50 D 35 35 1 1 P
+X ~ 2 0 -100 50 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dtusat-resistors_R_0402_6k2_CID1104
+#
+DEF dtusat-resistors_R_0402_6k2_CID1104 R 0 0 N Y 1 F N
+F0 "R" -50 0 35 V V C CNN
+F1 "dtusat-resistors_R_0402_6k2_CID1104" 100 0 35 V I C CNN
+F2 "dtusat:R0402" 300 0 35 V I C CNN
+F3 "" 0 0 30 H V C CNN
+F4 "6k2" 50 0 35 V V C CNN "Component value"
+F5 "1104" 150 0 35 V I C CNN "CID"
+F6 "Ceramic" 200 0 35 V I C CNN "Technology"
+F7 "1%" 250 0 35 V I C CNN "Tolerance"
+$FPLIST
+ dtusat:R0402
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -40 N
+P 2 0 1 0 0 40 0 50 N
+P 2 0 1 0 20 30 0 40 N
+P 5 0 1 0 20 30 -15 10 20 -10 -15 -30 0 -40 N
+X ~ 1 0 100 50 D 35 35 1 1 P
+X ~ 2 0 -100 50 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
