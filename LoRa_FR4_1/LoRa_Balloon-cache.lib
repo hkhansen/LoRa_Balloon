@@ -71,6 +71,23 @@ X GND 6 250 200 100 D 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# connectors_Qwiic_4pin
+#
+DEF connectors_Qwiic_4pin J 0 40 Y Y 1 F N
+F0 "J" -90 230 39 H V C CNN
+F1 "connectors_Qwiic_4pin" -40 -260 39 H V C CNN
+F2 "" 0 -60 39 H I C CNN
+F3 "" 0 -60 39 H I C CNN
+DRAW
+S 40 -220 -160 200 0 1 0 N
+S 40 140 40 200 0 1 0 N
+X TXD 1 140 140 100 L 50 50 1 1 O
+X RXD 2 140 40 100 L 50 50 1 1 I
+X Vcc 3 140 -60 100 L 50 50 1 1 I
+X GND 4 140 -160 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # dtusat-capacitors_C_0402_0.5pF_CID2091
 #
 DEF dtusat-capacitors_C_0402_0.5pF_CID2091 C 0 0 N Y 1 F N

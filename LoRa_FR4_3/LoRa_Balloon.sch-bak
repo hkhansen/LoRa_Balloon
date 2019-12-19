@@ -1859,19 +1859,8 @@ Wire Wire Line
 	1534 5242 1534 5141
 Wire Wire Line
 	1534 5141 1624 5141
-$Comp
-L dtusat-other:868MHz_ceramic_antenna A1
-U 1 1 5E027AA2
-P 1894 5272
-F 0 "A1" H 1962 5307 39  0000 L CNN
-F 1 "868MHz_ceramic_antenna" H 1962 5232 39  0000 L CNN
-F 2 "dtusat:Antenna_868MHz" H 1894 5272 39  0001 C CNN
-F 3 "" H 1894 5272 39  0001 C CNN
-	1    1894 5272
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1534 5342 1894 5342
+	1534 5342 1893 5342
 Wire Notes Line
 	6300 470  6300 6297
 Wire Notes Line
@@ -1887,10 +1876,10 @@ Power\n
 Text Notes 8153 714  2    157  ~ 0
 Microcontroller
 $Comp
-L dtusat-power:GND #PWR?
+L dtusat-power:GND #PWR0108
 U 1 1 5E0DCCF1
 P 4565 5686
-F 0 "#PWR?" H 4565 5436 35  0001 C CNN
+F 0 "#PWR0108" H 4565 5436 35  0001 C CNN
 F 1 "GND" H 4565 5524 35  0000 C CNN
 F 2 "" H 4565 5686 35  0000 C CNN
 F 3 "" H 4565 5686 35  0000 C CNN
@@ -1921,10 +1910,10 @@ Wire Wire Line
 	4565 5509 4565 5686
 Connection ~ 4565 5509
 $Comp
-L dtusat-power:GND #PWR?
+L dtusat-power:GND #PWR0109
 U 1 1 5E108C7C
 P 5534 5509
-F 0 "#PWR?" H 5534 5259 35  0001 C CNN
+F 0 "#PWR0109" H 5534 5259 35  0001 C CNN
 F 1 "GND" H 5534 5347 35  0000 C CNN
 F 2 "" H 5534 5509 35  0000 C CNN
 F 3 "" H 5534 5509 35  0000 C CNN
@@ -1934,4 +1923,80 @@ $EndComp
 Wire Wire Line
 	5515 5509 5534 5509
 Connection ~ 5515 5509
+$Comp
+L dtusat-other:COAX J1
+U 1 1 5DF95042
+P 2018 5342
+F 0 "J1" H 2121 5344 35  0000 L CNN
+F 1 "COAX" H 2121 5275 35  0000 L CNN
+F 2 "dtusat:UFL_Feedtrough" H 2174 5574 60  0001 C CNN
+F 3 "" H 2018 5442 60  0001 C CNN
+	1    2018 5342
+	1    0    0    -1  
+$EndComp
+Connection ~ 1893 5342
+Wire Wire Line
+	1893 5342 1894 5342
+$Comp
+L dtusat-power:GND #PWR0110
+U 1 1 5DF978AB
+P 2018 5467
+F 0 "#PWR0110" H 2018 5217 35  0001 C CNN
+F 1 "GND" H 2018 5305 35  0000 C CNN
+F 2 "" H 2018 5467 35  0000 C CNN
+F 3 "" H 2018 5467 35  0000 C CNN
+	1    2018 5467
+	1    0    0    -1  
+$EndComp
+$Comp
+L connectors:Qwiic_4pin J3
+U 1 1 5DFB43E9
+P 4565 6959
+F 0 "J3" H 4563 7300 39  0000 C CNN
+F 1 "Qwiic_4pin" H 4563 7225 39  0000 C CNN
+F 2 "dtusat:Qwiic_4-pin" H 4565 6899 39  0001 C CNN
+F 3 "" H 4565 6899 39  0001 C CNN
+	1    4565 6959
+	1    0    0    -1  
+$EndComp
+Text Label 4777 6919 2    39   ~ 0
+TX
+Text Label 4785 6819 2    39   ~ 0
+RX
+Wire Wire Line
+	4785 6819 4705 6819
+Wire Wire Line
+	4705 6919 4777 6919
+$Comp
+L dtusat-power:GND #PWR025
+U 1 1 5DFD99EC
+P 4705 7119
+F 0 "#PWR025" H 4705 6869 35  0001 C CNN
+F 1 "GND" H 4705 6957 35  0000 C CNN
+F 2 "" H 4705 7119 35  0000 C CNN
+F 3 "" H 4705 7119 35  0000 C CNN
+	1    4705 7119
+	1    0    0    -1  
+$EndComp
+$Comp
+L dtusat-power:+3.3V #PWR031
+U 1 1 5DFDB40C
+P 4867 7019
+F 0 "#PWR031" H 4867 6869 35  0001 C CNN
+F 1 "+3.3V" H 4874 7181 35  0000 C CNN
+F 2 "" H 4867 7019 35  0000 C CNN
+F 3 "" H 4867 7019 35  0000 C CNN
+	1    4867 7019
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4705 7019 4867 7019
+Wire Notes Line
+	3231 6299 3231 7794
+Wire Notes Line
+	3231 7794 6299 7794
+Wire Notes Line
+	6299 7794 6299 6297
+Text Notes 4018 6552 2    157  ~ 0
+GPS
 $EndSCHEMATC

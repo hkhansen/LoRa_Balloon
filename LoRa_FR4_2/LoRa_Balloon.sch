@@ -1721,17 +1721,6 @@ Wire Wire Line
 	2542 1515 2892 1515
 Wire Wire Line
 	2542 1440 2892 1440
-$Comp
-L dtusat-ic:XCL205 U6
-U 1 1 5DF7C563
-P 5080 5459
-F 0 "U6" H 5080 5061 35  0000 C CNN
-F 1 "XCL205" H 5080 5130 35  0000 C CNN
-F 2 "dtusat:XCL205" H 5030 5009 35  0001 C CNN
-F 3 "" H 5030 5009 35  0001 C CNN
-	1    5080 5459
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4375 5409 4460 5409
 Wire Wire Line
@@ -1758,11 +1747,6 @@ $EndComp
 Connection ~ 4565 5409
 Wire Wire Line
 	4565 5409 4730 5409
-Wire Wire Line
-	4731 5509 4730 5509
-Connection ~ 4730 5509
-Wire Wire Line
-	4730 5509 4565 5509
 $Comp
 L dtusat-capacitors:C_1206_4.7uF_CID2013_small C38
 U 1 1 5DFAC1A0
@@ -1777,11 +1761,6 @@ F 6 "Y5V" V 5740 5459 35  0001 C CNN "Dielectric"
 	1    5515 5459
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5429 5509 5430 5509
-Connection ~ 5430 5509
-Wire Wire Line
-	5430 5509 5515 5509
 Wire Wire Line
 	5429 5409 5430 5409
 Connection ~ 5430 5409
@@ -1894,11 +1873,7 @@ $EndComp
 Wire Wire Line
 	1534 5342 1894 5342
 Wire Notes Line
-	6300 470  6300 6297
-Wire Notes Line
 	470  4330 6300 4330
-Wire Notes Line
-	3231 4329 3231 6297
 Wire Notes Line
 	470  6297 6300 6297
 Text Notes 1513 4573 2    157  ~ 0
@@ -1907,4 +1882,103 @@ Text Notes 3969 4579 2    157  ~ 0
 Power\n
 Text Notes 8153 714  2    157  ~ 0
 Microcontroller
+$Comp
+L dtusat-power:GND #PWR031
+U 1 1 5E0DCCF1
+P 4565 5686
+F 0 "#PWR031" H 4565 5436 35  0001 C CNN
+F 1 "GND" H 4565 5524 35  0000 C CNN
+F 2 "" H 4565 5686 35  0000 C CNN
+F 3 "" H 4565 5686 35  0000 C CNN
+	1    4565 5686
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4730 5692 4729 5692
+Wire Wire Line
+	5429 5509 5430 5509
+Wire Wire Line
+	5430 5509 5515 5509
+Connection ~ 5430 5509
+$Comp
+L dtusat-ic:XCL205 U6
+U 1 1 5DF7C563
+P 5080 5459
+F 0 "U6" H 5080 5061 35  0000 C CNN
+F 1 "XCL205" H 5080 5130 35  0000 C CNN
+F 2 "dtusat:XCL205" H 5030 5009 35  0001 C CNN
+F 3 "" H 5030 5009 35  0001 C CNN
+	1    5080 5459
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4565 5509 4730 5509
+Wire Wire Line
+	4565 5509 4565 5686
+Connection ~ 4565 5509
+$Comp
+L dtusat-power:GND #PWR039
+U 1 1 5E108C7C
+P 5534 5509
+F 0 "#PWR039" H 5534 5259 35  0001 C CNN
+F 1 "GND" H 5534 5347 35  0000 C CNN
+F 2 "" H 5534 5509 35  0000 C CNN
+F 3 "" H 5534 5509 35  0000 C CNN
+	1    5534 5509
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5515 5509 5534 5509
+Connection ~ 5515 5509
+$Comp
+L connectors:Qwiic_4pin J1
+U 1 1 5DFAC160
+P 4400 6981
+F 0 "J1" H 4398 7322 39  0000 C CNN
+F 1 "Qwiic_4pin" H 4398 7247 39  0000 C CNN
+F 2 "dtusat:Qwiic_4-pin" H 4400 6921 39  0001 C CNN
+F 3 "" H 4400 6921 39  0001 C CNN
+	1    4400 6981
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4540 6841 4650 6841
+Wire Wire Line
+	4540 6941 4651 6941
+Text Label 4650 6841 2    39   ~ 0
+RX
+Text Label 4651 6941 2    39   ~ 0
+TX
+$Comp
+L dtusat-power:GND #PWR025
+U 1 1 5DFC2C64
+P 4540 7141
+F 0 "#PWR025" H 4540 6891 35  0001 C CNN
+F 1 "GND" H 4540 6979 35  0000 C CNN
+F 2 "" H 4540 7141 35  0000 C CNN
+F 3 "" H 4540 7141 35  0000 C CNN
+	1    4540 7141
+	1    0    0    -1  
+$EndComp
+$Comp
+L dtusat-power:+3.3V #PWR038
+U 1 1 5DFC3EDD
+P 4740 7041
+F 0 "#PWR038" H 4740 6891 35  0001 C CNN
+F 1 "+3.3V" H 4747 7203 35  0000 C CNN
+F 2 "" H 4740 7041 35  0000 C CNN
+F 3 "" H 4740 7041 35  0000 C CNN
+	1    4740 7041
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4540 7041 4740 7041
+Wire Notes Line
+	3231 7796 6300 7796
+Wire Notes Line
+	6300 470  6300 7796
+Wire Notes Line
+	3231 4329 3231 7796
+Text Notes 3821 6534 2    157  ~ 0
+GPS\n
 $EndSCHEMATC

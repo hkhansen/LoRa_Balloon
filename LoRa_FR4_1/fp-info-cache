@@ -1,4 +1,4 @@
-179264938618260
+180841604006454
 dtusat
 2.4Ghz_antenna
 Imported from 2.4GHz_antenna.svg
@@ -440,6 +440,13 @@ Quad Flat Pack (QFP), 0.50 mm pitch; square, 52 pin X 52 pin, 28.00 mm L X 28.00
 0
 208
 208
+dtusat
+Qwiic_4-pin
+
+
+0
+6
+5
 dtusat
 R0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
