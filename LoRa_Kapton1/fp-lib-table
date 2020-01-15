@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name dtusat)(type KiCad)(uri ${KIPRJMOD}/KiCad_libraries/dtusat.pretty)(options "")(descr ""))
-)
