@@ -1,19 +1,41 @@
-CID0000 - IC's and other;;;;CID1000 - Resistors;;;;CID2000 - Capacitors;;;;CID3000 - Inductors;;
-CID;Value;Quantity;;CID;Value;Quantity;;CID;Value;Quantity;;CID;Value;Quantity
-85;SAW_869MHz;3;;1101;10k;6;;2013;4.7uF;6;;3034;33nH;3
-103;ATMega328P_AU;3;;1104;6k2;6;;2019;18pF;6;;3035;2.7nH;3
-104;QFN-28;3;;;;;;2072;100nF;24;;3036;5.6nH;6
-105;SC70-6;3;;;;;;2079;10uF;3;;3037;10nH;9
-117;TXC14.3;3;;;;;;2081;47pF;6;;3038;8.2nH;6
-141;DFN-8;6;;;;;;2082;10nF;9;;;;
-142;TSX-3225;3;;;;;;2083;15pF;6;;;;
-;XCL-205;3;;;;;;2084;3.3pF;6;;;;
-;Qwiic_4pin;3;;;;;;2085;1.8pF;6;;;;
-;Qwicc_6-pin;3;;;;;;2086;20pF;6;;;;
-;Antenna_868MHz;2;;;;;;2087;1.5pF;3;;;;
-;COAX connector;1;;;;;;2088;8.2pF;6;;;;
-;;;;;;;;2089;10pF;6;;;;
-;;;;;;;;2090;22pF;3;;;;
-;;;;;;;;2091;0.5pF;6;;;;
-;;;;;;;;2092;1nF;6;;;;
-;;;;;;;;2093;2.4pF;6;;;;
+Componet references - LoRa_Balloon;;;;;;;;;;
+Capacitors;;;;Inductors;;;;Other;;
+REF;Value;Unit;;REF;Value;Unit;;REF;Component;
+C1;1,8;pF;;L1;10;nH;;F1;869MHz SAW;
+C2;100;nF;;L2;33;nH;;H1;EMI Shield;
+C3;20;pF;;L3;8,2;nH;;J1;Qwiic 4-pin;
+C4;10;uF;;L4;2,7;nH;;J2;Qwiic 6-pin;
+C5;100;nF;;L5;10;nH;;U1;DFN-8 LNA;
+C6;10;pF;;L6;10;nH;;U2;SX1272;
+C7;47;pF;;L7;8,2;nH;;U3;DFN-8 LNA;
+C8;100;nF;;L8;5,6;nH;;U4;SC70;
+C9;10;nF;;L9;5,6;nH;;U5;Atmega 328P;
+C10;100;nF;;;;;;U6;XCL205;
+C11;0,5;pF;;Resistors;;;;X1;TSX-3225 crystal;
+C12;10;nF;;REF;Value;Unit;;X2;12MHz crystal;
+C13;2,4;pF;;R1;6k2;R;;;;
+C14;1,8;pF;;R2;10;k;;;;
+C15;20;pF;;R3;6k2;R;;;;
+C16;10;pF;;R4;10;k;;;;
+C17;15;pF;;;;;;;;
+C18;15;pF;;;;;;;;
+C19;0,5;pF;;;;;;;;
+C20;8,2;pF;;;;;;;;
+C21;10;nF;;;;;;;;
+C22;22;pF;;;;;;;;
+C23;3,3;pF;;;;;;;;
+C24;2,4;pF;;;;;;;;
+C25;8,2;pF;;;;;;;;
+C26;1,5;pF;;;;;;;;
+C27;1;nF;;;;;;;;
+C28;3,3;pF;;;;;;;;
+C29;1;nF;;;;;;;;
+C30;47;pF;;;;;;;;
+C31;18;pF;;;;;;;;
+C32;18;pF;;;;;;;;
+C33;100;nF;;;;;;;;
+C34;100;nF;;;;;;;;
+C35;100;nF;;;;;;;;
+C36;100;nF;;;;;;;;
+C37;4,7;uF;;;;;;;;
+C38;47;pF;;;;;;;;
