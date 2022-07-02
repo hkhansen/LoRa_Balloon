@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:LoRa_Balloon-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1690,8 +1689,6 @@ $EndComp
 Connection ~ 2118 2890
 Wire Wire Line
 	2118 2890 2742 2890
-Wire Wire Line
-	1517 2890 1917 2890
 Text Label 4515 5209 2    35   ~ 0
 Reset
 Wire Wire Line
@@ -1981,4 +1978,6 @@ Wire Notes Line
 	3231 4329 3231 7796
 Text Notes 3813 6511 2    157  ~ 0
 GPS\n
+Wire Wire Line
+	1517 2890 1918 2890
 $EndSCHEMATC
