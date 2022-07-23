@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name connectors)(type Legacy)(uri "C:/Users/Hans Kristian/Desktop/Projects/LoRa_Balloon/KiCad_libraries/connectors.lib")(options "")(descr ""))
+  (lib (name dtusat-capacitors)(type Legacy)(uri "C:/Users/Hans Kristian/Desktop/Projects/LoRa_Balloon/KiCad_libraries/dtusat-capacitors.lib")(options "")(descr ""))
+  (lib (name dtusat-ic)(type Legacy)(uri "C:/Users/Hans Kristian/Desktop/Projects/LoRa_Balloon/KiCad_libraries/dtusat-ic.lib")(options "")(descr ""))
+  (lib (name dtusat-inductors)(type Legacy)(uri "C:/Users/Hans Kristian/Desktop/Projects/LoRa_Balloon/KiCad_libraries/dtusat-inductors.lib")(options "")(descr ""))
+  (lib (name dtusat-other)(type Legacy)(uri "C:/Users/Hans Kristian/Desktop/Projects/LoRa_Balloon/KiCad_libraries/dtusat-other.lib")(options "")(descr ""))
+  (lib (name dtusat-power)(type Legacy)(uri "C:/Users/Hans Kristian/Desktop/Projects/LoRa_Balloon/KiCad_libraries/dtusat-power.lib")(options "")(descr ""))
+  (lib (name dtusat-resistors)(type Legacy)(uri "C:/Users/Hans Kristian/Desktop/Projects/LoRa_Balloon/KiCad_libraries/dtusat-resistors.lib")(options "")(descr ""))
+  (lib (name ICs)(type Legacy)(uri "C:/Users/Hans Kristian/Desktop/Projects/LoRa_Balloon/KiCad_libraries/ICs.lib")(options "")(descr ""))
+  (lib (name SparkFun-Connectors)(type Legacy)(uri "C:/Users/Hans Kristian/Desktop/Projects/LoRa_Balloon/KiCad_libraries/SparkFun-Connectors.lib")(options "")(descr ""))
+)

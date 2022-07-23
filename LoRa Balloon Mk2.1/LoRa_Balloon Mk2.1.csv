@@ -1,41 +1,20 @@
-Componet references - LoRa_Balloon;;;;;;;;;;
-Capacitors;;;;Inductors;;;;Other;;
-REF;Value;Unit;;REF;Value;Unit;;REF;Component;
-C1;1,8;pF;;L1;10;nH;;F1;869MHz SAW;
-C2;100;nF;;L2;33;nH;;H1;EMI Shield;
-C3;20;pF;;L3;8,2;nH;;J1;Qwiic 4-pin;
-C4;10;uF;;L4;2,7;nH;;J2;Qwiic 6-pin;
-C5;100;nF;;L5;10;nH;;U1;DFN-8 LNA;
-C6;10;pF;;L6;10;nH;;U2;SX1272;
-C7;47;pF;;L7;8,2;nH;;U3;DFN-8 LNA;
-C8;100;nF;;L8;5,6;nH;;U4;SC70;
-C9;10;nF;;L9;5,6;nH;;U5;Atmega 328P;
-C10;100;nF;;;;;;U6;XCL205;
-C11;0,5;pF;;Resistors;;;;X1;TSX-3225 crystal;
-C12;10;nF;;REF;Value;Unit;;X2;12MHz crystal;
-C13;2,4;pF;;R1;6k2;R;;;;
-C14;1,8;pF;;R2;10;k;;;;
-C15;20;pF;;R3;6k2;R;;;;
-C16;10;pF;;R4;10;k;;;;
-C17;15;pF;;;;;;;;
-C18;15;pF;;;;;;;;
-C19;0,5;pF;;;;;;;;
-C20;8,2;pF;;;;;;;;
-C21;10;nF;;;;;;;;
-C22;22;pF;;;;;;;;
-C23;3,3;pF;;;;;;;;
-C24;2,4;pF;;;;;;;;
-C25;8,2;pF;;;;;;;;
-C26;1,5;pF;;;;;;;;
-C27;1;nF;;;;;;;;
-C28;3,3;pF;;;;;;;;
-C29;1;nF;;;;;;;;
-C30;47;pF;;;;;;;;
-C31;18;pF;;;;;;;;
-C32;18;pF;;;;;;;;
-C33;100;nF;;;;;;;;
-C34;100;nF;;;;;;;;
-C35;100;nF;;;;;;;;
-C36;100;nF;;;;;;;;
-C37;4,7;uF;;;;;;;;
-C38;47;pF;;;;;;;;
+Components - LoRa_Balloon;;;;;;;;
+Capacitors;;;Inductors;;;Other components;;
+Value;Unit;;Value;Unit;;12MHz crystal;;https://dk.farnell.com/txc/7a-16-000maaj-t/xtal-16-000mhz-18pf-smd-5-0x3/dp/1841946RL?st=glass%20crystal%207a%20series
+0,5;pF;;2,7;nH;;868 MHz Ceramic antenna;;https://dk.farnell.com/johanson-technology/0868at43a0020e/antenna-ceramic-868mhz/dp/1885493
+1,5;pF;;5,6;nH;;869MHz SAW filter;;https://dk.farnell.com/epcos/b39871b3715u410/saw-filter-rf-869mhz/dp/2309080?st=868%20mhz%20saw
+1,8;pF;;8,2;nH;;Atmega 328P microcontroller;;https://dk.farnell.com/microchip/atmega328p-au/mcu-8bit-atmega-20mhz-tqfp-32/dp/1715486?st=ATMEGA328P-AU
+2,4;pF;;10;nH;;EMI Shield 25x25mm;;https://www.mouser.dk/ProductDetail/Laird-Performance-Materials/BMI-S-203-F?qs=5UmOb8GQ3yKLBE6qZEE2TA==
+3,3;pF;;33;nH;;PE4259 RF switch;;https://www.psemi.com/pdf/datasheets/pe4259ds.pdf
+8,2;pF;;;;;SKY67013-396LF LNA;;https://www.mouser.dk/ProductDetail/Skyworks-Solutions-Inc/SKY67013-396LF?qs=WMHGlxXAKT%252BTn6hASXBAVQ==
+10;pF;;Resistors;;;SX1272 LoRa chip;;https://dk.farnell.com/semtech/sx1272imltrt/high-link-budget-transceiver-55y8079/dp/3278662?st=sx1272
+15;pF;;Value;Unit;;TSX-3225 crystal;;https://dk.farnell.com/epson/x1e0000210162-tsx-3225-32-mhz-9-0pf/crystal-tsx-3225-32-mhz-9-pf/dp/1712845?st=X1E0000210162%20TSX-3225%2032%20MHZ%209.0PF
+18;pF;;6,2;k?;;XCL205 step-down DC-DC converter;;http://www.farnell.com/datasheets/2012857.pdf
+20;pF;;10;k?;;4-pin qwiic connector;;
+22;pF;;;;;6-pin qwiic connector;;
+47;pF;;;;;;;
+1;nF;;;;;;;
+10;nF;;;;;;;
+100;nF;;;;;;;
+4,7;uF;;;;;;;
+10;uF;;;;;;;
