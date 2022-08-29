@@ -1,4 +1,4 @@
-(module Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm (layer F.Cu) (tedit 54130A77)
+(module QFN-28 (layer F.Cu) (tedit 62C5CE5C)
   (descr "28-Lead Plastic Quad Flat, No Lead Package (ML) - 6x6 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFN 0.65")
   (attr smd)
@@ -88,5 +88,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "C:/Users/Lenovo/Desktop/LoRa_Balloon/3D model/PCB/SX1272.STEP"
+    (offset (xyz 0 0 -0.48))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
   )
 )
