@@ -1,4 +1,4 @@
-853719616566170
+858934010848409
 Arduino
 1W_LED_vertical
 
@@ -2982,6 +2982,13 @@ capacitor 1210
 2
 2
 dtusat
+Ceramic_Antenna
+
+
+0
+2
+2
+dtusat
 Crystal_SMD_SeikoEpson_TSX3225-4pin_3.2x2.5mm
 crystal Epson Toyocom TSX-3225 series http://www.mouser.com/ds/2/137/1721499-465440.pdf, 3.2x2.5mm^2 package
 SMD SMT crystal
@@ -3044,6 +3051,20 @@ ELL8TP101MB
 0
 2
 2
+dtusat
+EMI_shield_WE-SHC
+
+
+0
+16
+1
+dtusat
+Edge_connector_9_pin
+
+
+0
+9
+9
 dtusat
 Emcore-ATJ-PV-Cell
 

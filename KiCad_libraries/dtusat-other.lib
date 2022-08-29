@@ -274,6 +274,27 @@ X JTAG_TCK 9 -325 -225 100 R 35 35 1 1 O C
 ENDDRAW
 ENDDEF
 #
+# Edge_connector_9_pin
+#
+DEF Edge_connector_9_pin J 0 40 Y Y 1 F N
+F0 "J" -400 150 39 H V C CNN
+F1 "Edge_connector_9_pin" 0 50 39 H V C CNN
+F2 "" 0 -550 39 H I C CNN
+F3 "" 0 -550 39 H I C CNN
+DRAW
+S -450 0 450 100 0 1 0 N
+X ~ 1 -400 -100 100 U 50 50 1 1 B
+X ~ 2 -300 -100 100 U 50 50 1 1 B
+X ~ 3 -200 -100 100 U 50 50 1 1 B
+X ~ 4 -100 -100 100 U 50 50 1 1 B
+X ~ 5 0 -100 100 U 50 50 1 1 B
+X ~ 6 100 -100 100 U 50 50 1 1 B
+X ~ 7 200 -100 100 U 50 50 1 1 B
+X ~ 8 300 -100 100 U 50 50 1 1 B
+X ~ 9 400 -100 100 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # Emcore_ATJ
 #
 DEF Emcore_ATJ PV 0 40 Y Y 1 F N
@@ -313,6 +334,21 @@ P 5 0 1 0 -35 -10 -55 10 -45 10 -55 0 -55 10 N
 P 5 0 1 0 -30 10 -50 30 -40 30 -50 20 -50 30 N
 X ~ A 0 100 50 D 35 35 1 1 P
 X ~ C 0 -100 50 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GPS_ceramic_antenna
+#
+DEF GPS_ceramic_antenna A? 0 40 Y Y 1 F N
+F0 "A?" 10 -290 39 H V C CNN
+F1 "GPS_ceramic_antenna" 50 -220 39 H V C CNN
+F2 "" 0 0 39 H I C CNN
+F3 "" 0 0 39 H I C CNN
+DRAW
+P 2 0 1 0 0 0 -40 70 N
+P 2 0 1 0 0 0 0 80 N
+P 2 0 1 0 0 0 40 70 N
+X ~ 1 0 -70 71 U 20 35 1 1 I
 ENDDRAW
 ENDDEF
 #
