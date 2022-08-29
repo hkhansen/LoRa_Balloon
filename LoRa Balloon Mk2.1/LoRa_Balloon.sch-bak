@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:LoRa_Balloon-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1690,8 +1689,6 @@ $EndComp
 Connection ~ 2118 2890
 Wire Wire Line
 	2118 2890 2742 2890
-Wire Wire Line
-	1517 2890 1917 2890
 Text Label 4515 5209 2    35   ~ 0
 Reset
 Wire Wire Line
@@ -1883,10 +1880,10 @@ Power\n
 Text Notes 8153 714  2    157  ~ 0
 Microcontroller
 $Comp
-L dtusat-power:GND #PWR?
+L dtusat-power:GND #PWR0108
 U 1 1 5E0DCCF1
 P 4565 5686
-F 0 "#PWR?" H 4565 5436 35  0001 C CNN
+F 0 "#PWR0108" H 4565 5436 35  0001 C CNN
 F 1 "GND" H 4565 5524 35  0000 C CNN
 F 2 "" H 4565 5686 35  0000 C CNN
 F 3 "" H 4565 5686 35  0000 C CNN
@@ -1917,10 +1914,10 @@ Wire Wire Line
 	4565 5509 4565 5686
 Connection ~ 4565 5509
 $Comp
-L dtusat-power:GND #PWR?
+L dtusat-power:GND #PWR0109
 U 1 1 5E108C7C
 P 5534 5509
-F 0 "#PWR?" H 5534 5259 35  0001 C CNN
+F 0 "#PWR0109" H 5534 5259 35  0001 C CNN
 F 1 "GND" H 5534 5347 35  0000 C CNN
 F 2 "" H 5534 5509 35  0000 C CNN
 F 3 "" H 5534 5509 35  0000 C CNN
@@ -1931,10 +1928,10 @@ Wire Wire Line
 	5515 5509 5534 5509
 Connection ~ 5515 5509
 $Comp
-L connectors:Qwiic_4pin J?
+L connectors:Qwiic_4pin J1
 U 1 1 5DFAC587
 P 4185 7005
-F 0 "J?" H 4183 7346 39  0000 C CNN
+F 0 "J1" H 4183 7346 39  0000 C CNN
 F 1 "Qwiic_4pin" H 4183 7271 39  0000 C CNN
 F 2 "dtusat:Qwiic_4-pin" H 4185 6945 39  0001 C CNN
 F 3 "" H 4185 6945 39  0001 C CNN
@@ -1950,10 +1947,10 @@ RX
 Text Label 4400 6965 2    39   ~ 0
 TX
 $Comp
-L dtusat-power:GND #PWR?
+L dtusat-power:GND #PWR0110
 U 1 1 5DFC38A0
 P 4325 7165
-F 0 "#PWR?" H 4325 6915 35  0001 C CNN
+F 0 "#PWR0110" H 4325 6915 35  0001 C CNN
 F 1 "GND" H 4325 7003 35  0000 C CNN
 F 2 "" H 4325 7165 35  0000 C CNN
 F 3 "" H 4325 7165 35  0000 C CNN
@@ -1961,10 +1958,10 @@ F 3 "" H 4325 7165 35  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dtusat-power:+3.3V #PWR?
+L dtusat-power:+3.3V #PWR0111
 U 1 1 5DFC4AFB
 P 4492 7065
-F 0 "#PWR?" H 4492 6915 35  0001 C CNN
+F 0 "#PWR0111" H 4492 6915 35  0001 C CNN
 F 1 "+3.3V" H 4499 7227 35  0000 C CNN
 F 2 "" H 4492 7065 35  0000 C CNN
 F 3 "" H 4492 7065 35  0000 C CNN
@@ -1981,4 +1978,6 @@ Wire Notes Line
 	3231 4329 3231 7796
 Text Notes 3813 6511 2    157  ~ 0
 GPS\n
+Wire Wire Line
+	1517 2890 1918 2890
 $EndSCHEMATC

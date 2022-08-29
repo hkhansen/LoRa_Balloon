@@ -1,650 +1,543 @@
 EESchema-DOCLIB  Version 2.0
 #
-#
-$CMP R_0603_121k_CID1000
-D 121k resistor, 1%, Thickfilm, 0603, CID1000
-K 121k, resistor, 0603, 1%%, Thickfilm, CID1000
+$CMP R_0402_0R_CID1091
+D 0R resistor, 1%, Thickfilm, 0402, CID1091
+K 0R, resistor, 0402, 1%%, Thickfilm, CID1091
 $ENDCMP
-#
-#
-$CMP R_0603_1M_CID1001
-D 1M resistor, 1%, Thickfilm, 0603, CID1001
-K 1M, resistor, 0603, 1%%, Thickfilm, CID1001
-$ENDCMP
-#
-#
-$CMP R_0603_22k_CID1002
-D 22k resistor, 1%, Thickfilm, 0603, CID1002
-K 22k, resistor, 0603, 1%%, Thickfilm, CID1002
-$ENDCMP
-#
-#
-$CMP R_0603_18k_CID1003
-D 18k resistor, 1%, Thickfilm, 0603, CID1003
-K 18k, resistor, 0603, 1%%, Thickfilm, CID1003
-$ENDCMP
-#
-#
-$CMP R_0603_15k_CID1004
-D 15k resistor, 1%, Thickfilm, 0603, CID1004
-K 15k, resistor, 0603, 1%%, Thickfilm, CID1004
-$ENDCMP
-#
-#
-$CMP R_0603_10k_CID1005
-D 10k resistor, 1%, Thickfilm, 0603, CID1005
-K 10k, resistor, 0603, 1%%, Thickfilm, CID1005
-$ENDCMP
-#
-#
-$CMP R_0603_6k8_CID1006
-D 6k8 resistor, 1%, Thickfilm, 0603, CID1006
-K 6k8, resistor, 0603, 1%%, Thickfilm, CID1006
-$ENDCMP
-#
-#
-$CMP R_0603_36k_CID1007
-D 36k resistor, 1%, Thickfilm, 0603, CID1007
-K 36k, resistor, 0603, 1%%, Thickfilm, CID1007
-$ENDCMP
-#
-#
-$CMP R_0603_33k_CID1008
-D 33k resistor, 1%, Thickfilm, 0603, CID1008
-K 33k, resistor, 0603, 1%%, Thickfilm, CID1008
-$ENDCMP
-#
-#
-$CMP R_0603_24k_CID1009
-D 24k resistor, 1%, Thickfilm, 0603, CID1009
-K 24k, resistor, 0603, 1%%, Thickfilm, CID1009
-$ENDCMP
-#
-#
-$CMP R_0603_4k7_CID1010
-D 4k7 resistor, 1%, Thickfilm, 0603, CID1010
-K 4k7, resistor, 0603, 1%%, Thickfilm, CID1010
-$ENDCMP
-#
-#
-$CMP R_0603_3k3_CID1011
-D 3k3 resistor, 1%, Thickfilm, 0603, CID1011
-K 3k3, resistor, 0603, 1%%, Thickfilm, CID1011
-$ENDCMP
-#
-#
-$CMP R_0603_2k2_CID1012
-D 2k2 resistor, 1%, Thickfilm, 0603, CID1012
-K 2k2, resistor, 0603, 1%%, Thickfilm, CID1012
-$ENDCMP
-#
-#
-$CMP R_0603_1k_CID1013
-D 1k resistor, 1%, Thickfilm, 0603, CID1013
-K 1k, resistor, 0603, 1%%, Thickfilm, CID1013
-$ENDCMP
-#
-#
-$CMP R_0603_750R_CID1014
-D 750R resistor, 1%, Thickfilm, 0603, CID1014
-K 750R, resistor, 0603, 1%%, Thickfilm, CID1014
-$ENDCMP
-#
-#
-$CMP R_0603_560R_CID1015
-D 560R resistor, 1%, Thickfilm, 0603, CID1015
-K 560R, resistor, 0603, 1%%, Thickfilm, CID1015
-$ENDCMP
-#
-#
-$CMP R_0603_51k_CID1016
-D 51k resistor, 1%, Thickfilm, 0603, CID1016
-K 51k, resistor, 0603, 1%%, Thickfilm, CID1016
-$ENDCMP
-#
-#
-$CMP R_0603_100k_CID1017
-D 100k resistor, 1%, Thickfilm, 0603, CID1017
-K 100k, resistor, 0603, 1%%, Thickfilm, CID1017
-$ENDCMP
-#
-#
-$CMP R_0603_68k_CID1018
-D 68k resistor, 1%, Thickfilm, 0603, CID1018
-K 68k, resistor, 0603, 1%%, Thickfilm, CID1018
-$ENDCMP
-#
-#
-$CMP R_0603_82k_CID1019
-D 82k resistor, 1%, Thickfilm, 0603, CID1019
-K 82k, resistor, 0603, 1%%, Thickfilm, CID1019
-$ENDCMP
-#
-#
-$CMP R_0603_220k_CID1020
-D 220k resistor, 1%, Thickfilm, 0603, CID1020
-K 220k, resistor, 0603, 1%%, Thickfilm, CID1020
-$ENDCMP
-#
-#
-$CMP R_0603_470k_CID1021
-D 470k resistor, 1%, Thickfilm, 0603, CID1021
-K 470k, resistor, 0603, 1%%, Thickfilm, CID1021
-$ENDCMP
-#
-#
-$CMP R_0603_56k_CID1022
-D 56k resistor, 1%, Thickfilm, 0603, CID1022
-K 56k, resistor, 0603, 1%%, Thickfilm, CID1022
-$ENDCMP
-#
-#
-$CMP R_0603_30k_CID1023
-D 30k resistor, 1%, Thickfilm, 0603, CID1023
-K 30k, resistor, 0603, 1%%, Thickfilm, CID1023
-$ENDCMP
-#
-#
-$CMP R_0603_150k_CID1024
-D 150k resistor, 1%, Thickfilm, 0603, CID1024
-K 150k, resistor, 0603, 1%%, Thickfilm, CID1024
-$ENDCMP
-#
-#
-$CMP R_0805_15k_CID1025
-D 15k resistor, 1%, Thickfilm, 0805, CID1025
-K 15k, resistor, 0805, 1%%, Thickfilm, CID1025
-$ENDCMP
-#
-#
-$CMP R_0805_470k_CID1026
-D 470k resistor, 1%, Thickfilm, 0805, CID1026
-K 470k, resistor, 0805, 1%%, Thickfilm, CID1026
-$ENDCMP
-#
-#
-$CMP R_0603_0R_CID1027
-D 0R resistor, 1%, Thickfilm, 0603, CID1027
-K 0R, resistor, 0603, 1%%, Thickfilm, CID1027
-$ENDCMP
-#
-#
-$CMP R_1206_100R_CID1028
-D 100R resistor, 1%, Thickfilm, 1206, CID1028
-K 100R, resistor, 1206, 1%%, Thickfilm, CID1028
-$ENDCMP
-#
-#
-$CMP R_0603_16k_CID1029
-D 16k resistor, 1%, Thickfilm, 0603, CID1029
-K 16k, resistor, 0603, 1%%, Thickfilm, CID1029
-$ENDCMP
-#
-#
-$CMP R_1206_10R_CID1030
-D 10R resistor, 1%, Thickfilm, 1206, CID1030
-K 10R, resistor, 1206, 1%%, Thickfilm, CID1030
-$ENDCMP
-#
-#
-$CMP R_0603_20R_CID1031
-D 20R resistor, 1%, Thickfilm, 0603, CID1031
-K 20R, resistor, 0603, 1%%, Thickfilm, CID1031
-$ENDCMP
-#
-#
-$CMP R_0603_100R_CID1032
-D 100R resistor, 1%, Thickfilm, 0603, CID1032
-K 100R, resistor, 0603, 1%%, Thickfilm, CID1032
-$ENDCMP
-#
-#
-$CMP R_0603_220R_CID1033
-D 220R resistor, 1%, Thickfilm, 0603, CID1033
-K 220R, resistor, 0603, 1%%, Thickfilm, CID1033
-$ENDCMP
-#
-#
-$CMP R_0603_47k_CID1034
-D 47k resistor, 1%, Thickfilm, 0603, CID1034
-K 47k, resistor, 0603, 1%%, Thickfilm, CID1034
-$ENDCMP
-#
-#
-$CMP R_2010_0.5R_CID1035
-D 0.5R resistor, 1%, Thickfilm, 2010, CID1035
-K 0.5R, resistor, 2010, 1%%, Thickfilm, CID1035
-$ENDCMP
-#
-#
-$CMP R_0603_11k_CID1036
-D 11k resistor, 1%, Thickfilm, 0603, CID1036
-K 11k, resistor, 0603, 1%%, Thickfilm, CID1036
-$ENDCMP
-#
-#
-$CMP R_0603_ARRAY_470k_CID1037
-D 470k resistor, 2 Array Concave, , 0603_ARRAY, CID1037
-K 470k, resistor, 0603_ARRAY, 2 Array Concave%, , CID1037
-$ENDCMP
-#
-#
-$CMP R_1206_60k4_CID1038
-D 60k4 resistor, 1%, Thickfilm, 1206, CID1038
-K 60k4, resistor, 1206, 1%%, Thickfilm, CID1038
-$ENDCMP
-#
-#
-$CMP R_0805_750_CID1039
-D 750 resistor, 1%, Thickfilm, 0805, CID1039
-K 750, resistor, 0805, 1%%, Thickfilm, CID1039
-$ENDCMP
-#
-#
-$CMP R_0603_ARRAY_47k_CID1040
-D 47k resistor, 2 Array Concave, , 0603_ARRAY, CID1040
-K 47k, resistor, 0603_ARRAY, 2 Array Concave%, , CID1040
-$ENDCMP
-#
-#
-$CMP R_0603_ARRAY_4k7_CID1041
-D 4k7 resistor, 2 Array Concave, , 0603_ARRAY, CID1041
-K 4k7, resistor, 0603_ARRAY, 2 Array Concave%, , CID1041
-$ENDCMP
-#
-#
-$CMP R_0603_ARRAY_10k_CID1042
-D 10k resistor, 2 Array Concave, , 0603_ARRAY, CID1042
-K 10k, resistor, 0603_ARRAY, 2 Array Concave%, , CID1042
-$ENDCMP
-#
-#
-$CMP R_0603_5k1_CID1043
-D 5k1 resistor, 1%, Thickfilm, 0603, CID1043
-K 5k1, resistor, 0603, 1%%, Thickfilm, CID1043
-$ENDCMP
-#
-#
-$CMP R_0603_510R_CID1044
-D 510R resistor, 1%, Thickfilm, 0603, CID1044
-K 510R, resistor, 0603, 1%%, Thickfilm, CID1044
-$ENDCMP
-#
-#
-$CMP R_0603_510k_CID1045
-D 510k resistor, 1%, Thickfilm, 0603, CID1045
-K 510k, resistor, 0603, 1%%, Thickfilm, CID1045
-$ENDCMP
-#
-#
-$CMP R_0603_27k_CID1046
-D 27k resistor, 1%, Thickfilm, 0603, CID1046
-K 27k, resistor, 0603, 1%%, Thickfilm, CID1046
-$ENDCMP
-#
-#
-$CMP R_0603_20k_CID1047
-D 20k resistor, 1%, Thickfilm, 0603, CID1047
-K 20k, resistor, 0603, 1%%, Thickfilm, CID1047
-$ENDCMP
-#
-#
-$CMP R_0603_200k_CID1048
-D 200k resistor, 1%, Thickfilm, 0603, CID1048
-K 200k, resistor, 0603, 1%%, Thickfilm, CID1048
-$ENDCMP
-#
-#
-$CMP R_0603_1k2_CID1049
-D 1k2 resistor, 1%, Thickfilm, 0603, CID1049
-K 1k2, resistor, 0603, 1%%, Thickfilm, CID1049
-$ENDCMP
-#
-#
-$CMP R_0603_62k_CID1050
-D 62k resistor, 1%, Thickfilm, 0603, CID1050
-K 62k, resistor, 0603, 1%%, Thickfilm, CID1050
-$ENDCMP
-#
-#
-$CMP R_0603_180k_CID1051
-D 180k resistor, 1%, Thickfilm, 0603, CID1051
-K 180k, resistor, 0603, 1%%, Thickfilm, CID1051
-$ENDCMP
-#
-#
-$CMP R_0603_12k_CID1052
-D 12k resistor, 1%, Thickfilm, 0603, CID1052
-K 12k, resistor, 0603, 1%%, Thickfilm, CID1052
-$ENDCMP
-#
-#
-$CMP R_1206_62R_CID1053
-D 62R resistor, 1%, Thickfilm, 1206, CID1053
-K 62R, resistor, 1206, 1%%, Thickfilm, CID1053
-$ENDCMP
-#
-#
-$CMP R_1206_56R_CID1054
-D 56R resistor, 1%, Thickfilm, 1206, CID1054
-K 56R, resistor, 1206, 1%%, Thickfilm, CID1054
-$ENDCMP
-#
-#
-$CMP R_0805_5%R_CID1055
-D 5%R resistor, 1%, Thickfilm, 0805, CID1055
-K 5%R, resistor, 0805, 1%%, Thickfilm, CID1055
-$ENDCMP
-#
-#
-$CMP R_0805_0.06R_CID1056
-D 0.06R resistor, 1%, Thickfilm, 0805, CID1056
-K 0.06R, resistor, 0805, 1%%, Thickfilm, CID1056
-$ENDCMP
-#
-#
-$CMP R_0805_0.07R_CID1057
-D 0.07R resistor, 1%, Thickfilm, 0805, CID1057
-K 0.07R, resistor, 0805, 1%%, Thickfilm, CID1057
-$ENDCMP
-#
-#
-$CMP R_0805_0.5R_CID1058
-D 0.5R resistor, 1%, Thickfilm, 0805, CID1058
-K 0.5R, resistor, 0805, 1%%, Thickfilm, CID1058
-$ENDCMP
-#
-#
-$CMP R_0603_910k_CID1059
-D 910k resistor, 1%, Thickfilm, 0603, CID1059
-K 910k, resistor, 0603, 1%%, Thickfilm, CID1059
-$ENDCMP
-#
-#
-$CMP R_0603_120k_CID1060
-D 120k resistor, 1%, Thickfilm, 0603, CID1060
-K 120k, resistor, 0603, 1%%, Thickfilm, CID1060
-$ENDCMP
-#
-#
-$CMP R_0603_100k_CID1061
-D 100k resistor, 1%, Thickfilm, 0603, CID1061
-K 100k, resistor, 0603, 1%%, Thickfilm, CID1061
-$ENDCMP
-#
-#
-$CMP R_0603_2k7_CID1062
-D 2k7 resistor, 1%, Thickfilm, 0603, CID1062
-K 2k7, resistor, 0603, 1%%, Thickfilm, CID1062
-$ENDCMP
-#
-#
-$CMP R_0603_680R_CID1063
-D 680R resistor, 1%, Thickfilm, 0603, CID1063
-K 680R, resistor, 0603, 1%%, Thickfilm, CID1063
-$ENDCMP
-#
-#
-$CMP R_0603_470R_CID1064
-D 470R resistor, 1%, Thickfilm, 0603, CID1064
-K 470R, resistor, 0603, 1%%, Thickfilm, CID1064
-$ENDCMP
-#
-#
-$CMP R_0603_10R_CID1065
-D 10R resistor, 1%, Thickfilm, 0603, CID1065
-K 10R, resistor, 0603, 1%%, Thickfilm, CID1065
-$ENDCMP
-#
-#
-$CMP R_0603_820k_CID1066
-D 820k resistor, 1%, Thickfilm, 0603, CID1066
-K 820k, resistor, 0603, 1%%, Thickfilm, CID1066
-$ENDCMP
-#
-#
-$CMP R_0603_2k4_CID1067
-D 2k4 resistor, 1%, Thickfilm, 0603, CID1067
-K 2k4, resistor, 0603, 1%%, Thickfilm, CID1067
-$ENDCMP
-#
-#
-$CMP R_0805_0R_CID1069
-D 0R resistor, 0.1%, , 0805, CID1069
-K 0R, resistor, 0805, 0.1%%, , CID1069
-$ENDCMP
-#
-#
-$CMP R_0603_51R_CID1070
-D 51R resistor, 5%, , 0603, CID1070
-K 51R, resistor, 0603, 5%%, , CID1070
-$ENDCMP
-#
-#
-$CMP R_0603_62R_CID1071
-D 62R resistor, 0.1%, , 0603, CID1071
-K 62R, resistor, 0603, 0.1%%, , CID1071
-$ENDCMP
-#
-#
-$CMP R_0402_10R_CID1072
-D 10R resistor, 0.1%, , 0402, CID1072
-K 10R, resistor, 0402, 0.1%%, , CID1072
-$ENDCMP
-#
-#
-$CMP R_0805_14k3_CID1073
-D 14k3 resistor, , , 0805, CID1073
-K 14k3, resistor, 0805, %, , CID1073
-$ENDCMP
-#
-#
-$CMP R_0603_18k7_CID1074
-D 18k7 resistor, 0.1%, , 0603, CID1074
-K 18k7, resistor, 0603, 0.1%%, , CID1074
-$ENDCMP
-#
-#
-$CMP R_TBD_TBD_CID1075
-D TBD resistor, , , TBD, CID1075
-K TBD, resistor, TBD, %, , CID1075
-$ENDCMP
-#
-#
-$CMP R_0603_16k9_CID1076
-D 16k9 resistor, 0.1%, , 0603, CID1076
-K 16k9, resistor, 0603, 0.1%%, , CID1076
-$ENDCMP
-#
-#
-$CMP R_0603_15k8_CID1077
-D 15k8 resistor, 0.1%, , 0603, CID1077
-K 15k8, resistor, 0603, 0.1%%, , CID1077
-$ENDCMP
-#
-#
-$CMP R_0603_4R7_CID1078
-D 4R7 resistor, 0.01%, , 0603, CID1078
-K 4R7, resistor, 0603, 0.01%%, , CID1078
-$ENDCMP
-#
-#
-$CMP R_0603_3R3_CID1079
-D 3R3 resistor, 1%, Thickfilm, 0603, CID1079
-K 3R3, resistor, 0603, 1%%, Thickfilm, CID1079
-$ENDCMP
-#
-#
-$CMP R_0805_10,0k_CID1080
-D 10,0k resistor, 5%, , 0805, CID1080
-K 10,0k, resistor, 0805, 5%%, , CID1080
-$ENDCMP
-#
-#
-$CMP R_0805_750R_CID1081
-D 750R resistor, 1%, Thickfilm, 0805, CID1081
-K 750R, resistor, 0805, 1%%, Thickfilm, CID1081
-$ENDCMP
-#
-#
-$CMP R_0603_0R_CID1082
-D 0R resistor, 1%, Metalfilm, 0603, CID1082
-K 0R, resistor, 0603, 1%%, Metalfilm, CID1082
-$ENDCMP
-#
-#
-$CMP R_0805_10k_CID1083
-D 10k resistor, 1%, Metalfilm, 0805, CID1083
-K 10k, resistor, 0805, 1%%, Metalfilm, CID1083
-$ENDCMP
-#
-#
-$CMP R_LEADED_250mW_1k_CID1084
-D 1k resistor, 1%, Metalfilm, LEADED_250mW, CID1084
-K 1k, resistor, LEADED_250mW, 1%%, Metalfilm, CID1084
-$ENDCMP
-#
-#
-$CMP R_LEADED_500mW_51k_CID1085
-D 51k resistor, 1%, Metalfilm, LEADED_500mW, CID1085
-K 51k, resistor, LEADED_500mW, 1%%, Metalfilm, CID1085
-$ENDCMP
-#
-#
-$CMP R_LEADED_125mW_33k_CID1086
-D 33k resistor, 1%, Metalfilm, LEADED_125mW, CID1086
-K 33k, resistor, LEADED_125mW, 1%%, Metalfilm, CID1086
-$ENDCMP
-#
-#
-$CMP R_LEADED_250mW_100R_CID1087
-D 100R resistor, 1%, Thickfilm, LEADED_250mW, CID1087
-K 100R, resistor, LEADED_250mW, 1%%, Thickfilm, CID1087
-$ENDCMP
-#
-#
-$CMP R_LEADED_250mW_100k_CID1088
-D 100k resistor, 1%, Thickfilm, LEADED_250mW, CID1088
-K 100k, resistor, LEADED_250mW, 1%%, Thickfilm, CID1088
-$ENDCMP
-#
 #
 $CMP R_0402_100R_CID1089
 D 100R resistor, 1%, Thickfilm, 0402, CID1089
 K 100R, resistor, 0402, 1%%, Thickfilm, CID1089
 $ENDCMP
 #
-#
-$CMP R_0805_1k5_CID1090
-D 1k5 resistor, 1%, Thickfilm, 0805, CID1090
-K 1k5, resistor, 0805, 1%%, Thickfilm, CID1090
-$ENDCMP
-#
-#
-$CMP R_0402_0R_CID1091
-D 0R resistor, 1%, Thickfilm, 0402, CID1091
-K 0R, resistor, 0402, 1%%, Thickfilm, CID1091
-$ENDCMP
-#
-#
-$CMP R_2010_0R1_CID1092
-D 0R1 resistor, 1%, Thickfilm, 2010, CID1092
-K 0R1, resistor, 2010, 1%%, Thickfilm, CID1092
-$ENDCMP
-#
-#
-$CMP R_0603_18R_CID1093
-D 18R resistor, 1%, Thickfilm, 0603, CID1093
-K 18R, resistor, 0603, 1%%, Thickfilm, CID1093
-$ENDCMP
-#
-#
-$CMP R_1210_0R1_CID1094
-D 0R1 resistor, 1%, Material, 1210, CID1094
-K 0R1, resistor, 1210, 1%%, Material, CID1094
-$ENDCMP
-#
-#
-$CMP R_221T_0HM5_CID1095
-D 0HM5 resistor, , , 221T, CID1095
-K 0HM5, resistor, 221T, %, , CID1095
-$ENDCMP
-#
-#
-$CMP R_LEADED_250mW_1K0_CID1096
-D 1K0 resistor, , , LEADED_250mW, CID1096
-K 1K0, resistor, LEADED_250mW, %, , CID1096
-$ENDCMP
-#
-#
-$CMP R_TBD_0R1_CID1097
-D 0R1 resistor, , , TBD, CID1097
-K 0R1, resistor, TBD, %, , CID1097
-$ENDCMP
-#
-#
 $CMP R_0402_100k_CID1098
 D 100k resistor, 1%, Thickfilm, 0402, CID1098
 K 100k, resistor, 0402, 1%%, Thickfilm, CID1098
 $ENDCMP
 #
-#
-$CMP R_0402_1k_CID1099
-D 1k resistor, 1%, Thickfilm, 0402, CID1099
-K 1k, resistor, 0402, 1%%, Thickfilm, CID1099
+$CMP R_0402_10R_CID1072
+D 10R resistor, 0.1%, , 0402, CID1072
+K 10R, resistor, 0402, 0.1%%, , CID1072
 $ENDCMP
-#
-#
-$CMP R_0402_27R_CID1100
-D 27R resistor, 1%, Thickfilm, 0402, CID1100
-K 27R, resistor, 0402, 1%%, Thickfilm, CID1100
-$ENDCMP
-#
 #
 $CMP R_0402_10k_CID1101
 D 10k resistor, 1%, Thickfilm, 0402, CID1101
 K 10k, resistor, 0402, 1%%, Thickfilm, CID1101
 $ENDCMP
 #
-#
-$CMP R_0402_75k_CID1102
-D 75k resistor, 0.1%, Metalfilm, 0402, CID1102
-K 75k, resistor, 0402, 0.1%%, Metalfilm, CID1102
+$CMP R_0402_1k_CID1099
+D 1k resistor, 1%, Thickfilm, 0402, CID1099
+K 1k, resistor, 0402, 1%%, Thickfilm, CID1099
 $ENDCMP
-#
 #
 $CMP R_0402_23k7_CID1103
 D 23k7 resistor, 0.1%, Metalfilm, 0402, CID1103
 K 23k7, resistor, 0402, 0.1%%, Metalfilm, CID1103
 $ENDCMP
 #
+$CMP R_0402_27R_CID1100
+D 27R resistor, 1%, Thickfilm, 0402, CID1100
+K 27R, resistor, 0402, 1%%, Thickfilm, CID1100
+$ENDCMP
 #
 $CMP R_0402_6k2_CID1104
 D 6k2 resistor, 1%, Ceramic, 0402, CID1104
 K 6k2, resistor, 0402, 1%%, Ceramic, CID1104
 $ENDCMP
 #
-#
-$CMP R_0603_237k_CID1105
-D 237k resistor, 0.1%, Metalfilm, 0603, CID1105
-K 237k, resistor, 0603, 0.1%%, Metalfilm, CID1105
+$CMP R_0402_75k_CID1102
+D 75k resistor, 0.1%, Metalfilm, 0402, CID1102
+K 75k, resistor, 0402, 0.1%%, Metalfilm, CID1102
 $ENDCMP
 #
+$CMP R_0603_0R_CID1027
+D 0R resistor, 1%, Thickfilm, 0603, CID1027
+K 0R, resistor, 0603, 1%%, Thickfilm, CID1027
+$ENDCMP
+#
+$CMP R_0603_0R_CID1082
+D 0R resistor, 1%, Metalfilm, 0603, CID1082
+K 0R, resistor, 0603, 1%%, Metalfilm, CID1082
+$ENDCMP
+#
+$CMP R_0603_100R_CID1032
+D 100R resistor, 1%, Thickfilm, 0603, CID1032
+K 100R, resistor, 0603, 1%%, Thickfilm, CID1032
+$ENDCMP
+#
+$CMP R_0603_100k_CID1017
+D 100k resistor, 1%, Thickfilm, 0603, CID1017
+K 100k, resistor, 0603, 1%%, Thickfilm, CID1017
+$ENDCMP
+#
+$CMP R_0603_100k_CID1061
+D 100k resistor, 1%, Thickfilm, 0603, CID1061
+K 100k, resistor, 0603, 1%%, Thickfilm, CID1061
+$ENDCMP
 #
 $CMP R_0603_100k_CID1106
 D 100k resistor, 0.1%, MEtalfilm, 0603, CID1106
 K 100k, resistor, 0603, 0.1%%, MEtalfilm, CID1106
 $ENDCMP
 #
+$CMP R_0603_10R_CID1065
+D 10R resistor, 1%, Thickfilm, 0603, CID1065
+K 10R, resistor, 0603, 1%%, Thickfilm, CID1065
+$ENDCMP
+#
+$CMP R_0603_10k_CID1005
+D 10k resistor, 1%, Thickfilm, 0603, CID1005
+K 10k, resistor, 0603, 1%%, Thickfilm, CID1005
+$ENDCMP
+#
+$CMP R_0603_11k_CID1036
+D 11k resistor, 1%, Thickfilm, 0603, CID1036
+K 11k, resistor, 0603, 1%%, Thickfilm, CID1036
+$ENDCMP
+#
+$CMP R_0603_120k_CID1060
+D 120k resistor, 1%, Thickfilm, 0603, CID1060
+K 120k, resistor, 0603, 1%%, Thickfilm, CID1060
+$ENDCMP
+#
+$CMP R_0603_121k_CID1000
+D 121k resistor, 1%, Thickfilm, 0603, CID1000
+K 121k, resistor, 0603, 1%%, Thickfilm, CID1000
+$ENDCMP
+#
+$CMP R_0603_12k_CID1052
+D 12k resistor, 1%, Thickfilm, 0603, CID1052
+K 12k, resistor, 0603, 1%%, Thickfilm, CID1052
+$ENDCMP
+#
+$CMP R_0603_150k_CID1024
+D 150k resistor, 1%, Thickfilm, 0603, CID1024
+K 150k, resistor, 0603, 1%%, Thickfilm, CID1024
+$ENDCMP
+#
+$CMP R_0603_15k8_CID1077
+D 15k8 resistor, 0.1%, , 0603, CID1077
+K 15k8, resistor, 0603, 0.1%%, , CID1077
+$ENDCMP
+#
+$CMP R_0603_15k_CID1004
+D 15k resistor, 1%, Thickfilm, 0603, CID1004
+K 15k, resistor, 0603, 1%%, Thickfilm, CID1004
+$ENDCMP
+#
+$CMP R_0603_16k9_CID1076
+D 16k9 resistor, 0.1%, , 0603, CID1076
+K 16k9, resistor, 0603, 0.1%%, , CID1076
+$ENDCMP
+#
+$CMP R_0603_16k_CID1029
+D 16k resistor, 1%, Thickfilm, 0603, CID1029
+K 16k, resistor, 0603, 1%%, Thickfilm, CID1029
+$ENDCMP
+#
+$CMP R_0603_180k_CID1051
+D 180k resistor, 1%, Thickfilm, 0603, CID1051
+K 180k, resistor, 0603, 1%%, Thickfilm, CID1051
+$ENDCMP
+#
+$CMP R_0603_18R_CID1093
+D 18R resistor, 1%, Thickfilm, 0603, CID1093
+K 18R, resistor, 0603, 1%%, Thickfilm, CID1093
+$ENDCMP
+#
+$CMP R_0603_18k7_CID1074
+D 18k7 resistor, 0.1%, , 0603, CID1074
+K 18k7, resistor, 0603, 0.1%%, , CID1074
+$ENDCMP
+#
+$CMP R_0603_18k_CID1003
+D 18k resistor, 1%, Thickfilm, 0603, CID1003
+K 18k, resistor, 0603, 1%%, Thickfilm, CID1003
+$ENDCMP
+#
+$CMP R_0603_1M_CID1001
+D 1M resistor, 1%, Thickfilm, 0603, CID1001
+K 1M, resistor, 0603, 1%%, Thickfilm, CID1001
+$ENDCMP
+#
+$CMP R_0603_1k2_CID1049
+D 1k2 resistor, 1%, Thickfilm, 0603, CID1049
+K 1k2, resistor, 0603, 1%%, Thickfilm, CID1049
+$ENDCMP
+#
+$CMP R_0603_1k_CID1013
+D 1k resistor, 1%, Thickfilm, 0603, CID1013
+K 1k, resistor, 0603, 1%%, Thickfilm, CID1013
+$ENDCMP
+#
+$CMP R_0603_200k_CID1048
+D 200k resistor, 1%, Thickfilm, 0603, CID1048
+K 200k, resistor, 0603, 1%%, Thickfilm, CID1048
+$ENDCMP
+#
+$CMP R_0603_20R_CID1031
+D 20R resistor, 1%, Thickfilm, 0603, CID1031
+K 20R, resistor, 0603, 1%%, Thickfilm, CID1031
+$ENDCMP
+#
+$CMP R_0603_20k_CID1047
+D 20k resistor, 1%, Thickfilm, 0603, CID1047
+K 20k, resistor, 0603, 1%%, Thickfilm, CID1047
+$ENDCMP
+#
+$CMP R_0603_220R_CID1033
+D 220R resistor, 1%, Thickfilm, 0603, CID1033
+K 220R, resistor, 0603, 1%%, Thickfilm, CID1033
+$ENDCMP
+#
+$CMP R_0603_220k_CID1020
+D 220k resistor, 1%, Thickfilm, 0603, CID1020
+K 220k, resistor, 0603, 1%%, Thickfilm, CID1020
+$ENDCMP
+#
+$CMP R_0603_22k_CID1002
+D 22k resistor, 1%, Thickfilm, 0603, CID1002
+K 22k, resistor, 0603, 1%%, Thickfilm, CID1002
+$ENDCMP
+#
+$CMP R_0603_237k_CID1105
+D 237k resistor, 0.1%, Metalfilm, 0603, CID1105
+K 237k, resistor, 0603, 0.1%%, Metalfilm, CID1105
+$ENDCMP
+#
+$CMP R_0603_24k_CID1009
+D 24k resistor, 1%, Thickfilm, 0603, CID1009
+K 24k, resistor, 0603, 1%%, Thickfilm, CID1009
+$ENDCMP
+#
+$CMP R_0603_27k_CID1046
+D 27k resistor, 1%, Thickfilm, 0603, CID1046
+K 27k, resistor, 0603, 1%%, Thickfilm, CID1046
+$ENDCMP
+#
+$CMP R_0603_2k2_CID1012
+D 2k2 resistor, 1%, Thickfilm, 0603, CID1012
+K 2k2, resistor, 0603, 1%%, Thickfilm, CID1012
+$ENDCMP
+#
+$CMP R_0603_2k4_CID1067
+D 2k4 resistor, 1%, Thickfilm, 0603, CID1067
+K 2k4, resistor, 0603, 1%%, Thickfilm, CID1067
+$ENDCMP
+#
+$CMP R_0603_2k7_CID1062
+D 2k7 resistor, 1%, Thickfilm, 0603, CID1062
+K 2k7, resistor, 0603, 1%%, Thickfilm, CID1062
+$ENDCMP
+#
+$CMP R_0603_30k_CID1023
+D 30k resistor, 1%, Thickfilm, 0603, CID1023
+K 30k, resistor, 0603, 1%%, Thickfilm, CID1023
+$ENDCMP
+#
+$CMP R_0603_33k_CID1008
+D 33k resistor, 1%, Thickfilm, 0603, CID1008
+K 33k, resistor, 0603, 1%%, Thickfilm, CID1008
+$ENDCMP
+#
+$CMP R_0603_36k_CID1007
+D 36k resistor, 1%, Thickfilm, 0603, CID1007
+K 36k, resistor, 0603, 1%%, Thickfilm, CID1007
+$ENDCMP
+#
+$CMP R_0603_3R3_CID1079
+D 3R3 resistor, 1%, Thickfilm, 0603, CID1079
+K 3R3, resistor, 0603, 1%%, Thickfilm, CID1079
+$ENDCMP
+#
+$CMP R_0603_3k3_CID1011
+D 3k3 resistor, 1%, Thickfilm, 0603, CID1011
+K 3k3, resistor, 0603, 1%%, Thickfilm, CID1011
+$ENDCMP
 #
 $CMP R_0603_422R_CID1107
 D 422R resistor, 1%, Thickfilm, 0603, CID1107
 K 422R, resistor, 0603, 1%%, Thickfilm, CID1107
 $ENDCMP
 #
+$CMP R_0603_470R_CID1064
+D 470R resistor, 1%, Thickfilm, 0603, CID1064
+K 470R, resistor, 0603, 1%%, Thickfilm, CID1064
+$ENDCMP
+#
+$CMP R_0603_470k_CID1021
+D 470k resistor, 1%, Thickfilm, 0603, CID1021
+K 470k, resistor, 0603, 1%%, Thickfilm, CID1021
+$ENDCMP
+#
+$CMP R_0603_47k_CID1034
+D 47k resistor, 1%, Thickfilm, 0603, CID1034
+K 47k, resistor, 0603, 1%%, Thickfilm, CID1034
+$ENDCMP
+#
+$CMP R_0603_4R7_CID1078
+D 4R7 resistor, 0.01%, , 0603, CID1078
+K 4R7, resistor, 0603, 0.01%%, , CID1078
+$ENDCMP
+#
+$CMP R_0603_4k7_CID1010
+D 4k7 resistor, 1%, Thickfilm, 0603, CID1010
+K 4k7, resistor, 0603, 1%%, Thickfilm, CID1010
+$ENDCMP
+#
+$CMP R_0603_510R_CID1044
+D 510R resistor, 1%, Thickfilm, 0603, CID1044
+K 510R, resistor, 0603, 1%%, Thickfilm, CID1044
+$ENDCMP
+#
+$CMP R_0603_510k_CID1045
+D 510k resistor, 1%, Thickfilm, 0603, CID1045
+K 510k, resistor, 0603, 1%%, Thickfilm, CID1045
+$ENDCMP
+#
+$CMP R_0603_51R_CID1070
+D 51R resistor, 5%, , 0603, CID1070
+K 51R, resistor, 0603, 5%%, , CID1070
+$ENDCMP
+#
+$CMP R_0603_51k_CID1016
+D 51k resistor, 1%, Thickfilm, 0603, CID1016
+K 51k, resistor, 0603, 1%%, Thickfilm, CID1016
+$ENDCMP
+#
+$CMP R_0603_560R_CID1015
+D 560R resistor, 1%, Thickfilm, 0603, CID1015
+K 560R, resistor, 0603, 1%%, Thickfilm, CID1015
+$ENDCMP
+#
+$CMP R_0603_56k_CID1022
+D 56k resistor, 1%, Thickfilm, 0603, CID1022
+K 56k, resistor, 0603, 1%%, Thickfilm, CID1022
+$ENDCMP
+#
+$CMP R_0603_5k1_CID1043
+D 5k1 resistor, 1%, Thickfilm, 0603, CID1043
+K 5k1, resistor, 0603, 1%%, Thickfilm, CID1043
+$ENDCMP
+#
+$CMP R_0603_62R_CID1071
+D 62R resistor, 0.1%, , 0603, CID1071
+K 62R, resistor, 0603, 0.1%%, , CID1071
+$ENDCMP
+#
+$CMP R_0603_62k_CID1050
+D 62k resistor, 1%, Thickfilm, 0603, CID1050
+K 62k, resistor, 0603, 1%%, Thickfilm, CID1050
+$ENDCMP
+#
+$CMP R_0603_680R_CID1063
+D 680R resistor, 1%, Thickfilm, 0603, CID1063
+K 680R, resistor, 0603, 1%%, Thickfilm, CID1063
+$ENDCMP
+#
+$CMP R_0603_68k_CID1018
+D 68k resistor, 1%, Thickfilm, 0603, CID1018
+K 68k, resistor, 0603, 1%%, Thickfilm, CID1018
+$ENDCMP
+#
+$CMP R_0603_6k8_CID1006
+D 6k8 resistor, 1%, Thickfilm, 0603, CID1006
+K 6k8, resistor, 0603, 1%%, Thickfilm, CID1006
+$ENDCMP
+#
+$CMP R_0603_750R_CID1014
+D 750R resistor, 1%, Thickfilm, 0603, CID1014
+K 750R, resistor, 0603, 1%%, Thickfilm, CID1014
+$ENDCMP
+#
+$CMP R_0603_820k_CID1066
+D 820k resistor, 1%, Thickfilm, 0603, CID1066
+K 820k, resistor, 0603, 1%%, Thickfilm, CID1066
+$ENDCMP
+#
+$CMP R_0603_82k_CID1019
+D 82k resistor, 1%, Thickfilm, 0603, CID1019
+K 82k, resistor, 0603, 1%%, Thickfilm, CID1019
+$ENDCMP
+#
+$CMP R_0603_910k_CID1059
+D 910k resistor, 1%, Thickfilm, 0603, CID1059
+K 910k, resistor, 0603, 1%%, Thickfilm, CID1059
+$ENDCMP
+#
+$CMP R_0603_ARRAY_10k_CID1042
+D 10k resistor, 2 Array Concave, , 0603_ARRAY, CID1042
+K 10k, resistor, 0603_ARRAY, 2 Array Concave%, , CID1042
+$ENDCMP
+#
+$CMP R_0603_ARRAY_470k_CID1037
+D 470k resistor, 2 Array Concave, , 0603_ARRAY, CID1037
+K 470k, resistor, 0603_ARRAY, 2 Array Concave%, , CID1037
+$ENDCMP
+#
+$CMP R_0603_ARRAY_47k_CID1040
+D 47k resistor, 2 Array Concave, , 0603_ARRAY, CID1040
+K 47k, resistor, 0603_ARRAY, 2 Array Concave%, , CID1040
+$ENDCMP
+#
+$CMP R_0603_ARRAY_4k7_CID1041
+D 4k7 resistor, 2 Array Concave, , 0603_ARRAY, CID1041
+K 4k7, resistor, 0603_ARRAY, 2 Array Concave%, , CID1041
+$ENDCMP
+#
+$CMP R_0805_0.06R_CID1056
+D 0.06R resistor, 1%, Thickfilm, 0805, CID1056
+K 0.06R, resistor, 0805, 1%%, Thickfilm, CID1056
+$ENDCMP
+#
+$CMP R_0805_0.07R_CID1057
+D 0.07R resistor, 1%, Thickfilm, 0805, CID1057
+K 0.07R, resistor, 0805, 1%%, Thickfilm, CID1057
+$ENDCMP
+#
+$CMP R_0805_0.5R_CID1058
+D 0.5R resistor, 1%, Thickfilm, 0805, CID1058
+K 0.5R, resistor, 0805, 1%%, Thickfilm, CID1058
+$ENDCMP
+#
+$CMP R_0805_0R_CID1069
+D 0R resistor, 0.1%, , 0805, CID1069
+K 0R, resistor, 0805, 0.1%%, , CID1069
+$ENDCMP
+#
+$CMP R_0805_10,0k_CID1080
+D 10,0k resistor, 5%, , 0805, CID1080
+K 10,0k, resistor, 0805, 5%%, , CID1080
+$ENDCMP
+#
+$CMP R_0805_10k_CID1083
+D 10k resistor, 1%, Metalfilm, 0805, CID1083
+K 10k, resistor, 0805, 1%%, Metalfilm, CID1083
+$ENDCMP
+#
+$CMP R_0805_14k3_CID1073
+D 14k3 resistor, , , 0805, CID1073
+K 14k3, resistor, 0805, %, , CID1073
+$ENDCMP
+#
+$CMP R_0805_15k_CID1025
+D 15k resistor, 1%, Thickfilm, 0805, CID1025
+K 15k, resistor, 0805, 1%%, Thickfilm, CID1025
+$ENDCMP
+#
+$CMP R_0805_1k5_CID1090
+D 1k5 resistor, 1%, Thickfilm, 0805, CID1090
+K 1k5, resistor, 0805, 1%%, Thickfilm, CID1090
+$ENDCMP
+#
+$CMP R_0805_470k_CID1026
+D 470k resistor, 1%, Thickfilm, 0805, CID1026
+K 470k, resistor, 0805, 1%%, Thickfilm, CID1026
+$ENDCMP
+#
+$CMP R_0805_5%R_CID1055
+D 5%R resistor, 1%, Thickfilm, 0805, CID1055
+K 5%R, resistor, 0805, 1%%, Thickfilm, CID1055
+$ENDCMP
+#
+$CMP R_0805_750R_CID1081
+D 750R resistor, 1%, Thickfilm, 0805, CID1081
+K 750R, resistor, 0805, 1%%, Thickfilm, CID1081
+$ENDCMP
+#
+$CMP R_0805_750_CID1039
+D 750 resistor, 1%, Thickfilm, 0805, CID1039
+K 750, resistor, 0805, 1%%, Thickfilm, CID1039
+$ENDCMP
+#
+$CMP R_1206_100R_CID1028
+D 100R resistor, 1%, Thickfilm, 1206, CID1028
+K 100R, resistor, 1206, 1%%, Thickfilm, CID1028
+$ENDCMP
+#
+$CMP R_1206_10R_CID1030
+D 10R resistor, 1%, Thickfilm, 1206, CID1030
+K 10R, resistor, 1206, 1%%, Thickfilm, CID1030
+$ENDCMP
+#
+$CMP R_1206_56R_CID1054
+D 56R resistor, 1%, Thickfilm, 1206, CID1054
+K 56R, resistor, 1206, 1%%, Thickfilm, CID1054
+$ENDCMP
+#
+$CMP R_1206_60k4_CID1038
+D 60k4 resistor, 1%, Thickfilm, 1206, CID1038
+K 60k4, resistor, 1206, 1%%, Thickfilm, CID1038
+$ENDCMP
+#
+$CMP R_1206_62R_CID1053
+D 62R resistor, 1%, Thickfilm, 1206, CID1053
+K 62R, resistor, 1206, 1%%, Thickfilm, CID1053
+$ENDCMP
+#
+$CMP R_1210_0R1_CID1094
+D 0R1 resistor, 1%, Material, 1210, CID1094
+K 0R1, resistor, 1210, 1%%, Material, CID1094
+$ENDCMP
+#
+$CMP R_2010_0.5R_CID1035
+D 0.5R resistor, 1%, Thickfilm, 2010, CID1035
+K 0.5R, resistor, 2010, 1%%, Thickfilm, CID1035
+$ENDCMP
+#
+$CMP R_2010_0R1_CID1092
+D 0R1 resistor, 1%, Thickfilm, 2010, CID1092
+K 0R1, resistor, 2010, 1%%, Thickfilm, CID1092
+$ENDCMP
+#
+$CMP R_221T_0HM5_CID1095
+D 0HM5 resistor, , , 221T, CID1095
+K 0HM5, resistor, 221T, %, , CID1095
+$ENDCMP
+#
+$CMP R_LEADED_125mW_33k_CID1086
+D 33k resistor, 1%, Metalfilm, LEADED_125mW, CID1086
+K 33k, resistor, LEADED_125mW, 1%%, Metalfilm, CID1086
+$ENDCMP
+#
+$CMP R_LEADED_250mW_100R_CID1087
+D 100R resistor, 1%, Thickfilm, LEADED_250mW, CID1087
+K 100R, resistor, LEADED_250mW, 1%%, Thickfilm, CID1087
+$ENDCMP
+#
+$CMP R_LEADED_250mW_100k_CID1088
+D 100k resistor, 1%, Thickfilm, LEADED_250mW, CID1088
+K 100k, resistor, LEADED_250mW, 1%%, Thickfilm, CID1088
+$ENDCMP
+#
+$CMP R_LEADED_250mW_1K0_CID1096
+D 1K0 resistor, , , LEADED_250mW, CID1096
+K 1K0, resistor, LEADED_250mW, %, , CID1096
+$ENDCMP
+#
+$CMP R_LEADED_250mW_1k_CID1084
+D 1k resistor, 1%, Metalfilm, LEADED_250mW, CID1084
+K 1k, resistor, LEADED_250mW, 1%%, Metalfilm, CID1084
+$ENDCMP
+#
+$CMP R_LEADED_500mW_51k_CID1085
+D 51k resistor, 1%, Metalfilm, LEADED_500mW, CID1085
+K 51k, resistor, LEADED_500mW, 1%%, Metalfilm, CID1085
+$ENDCMP
+#
+$CMP R_TBD_0R1_CID1097
+D 0R1 resistor, , , TBD, CID1097
+K 0R1, resistor, TBD, %, , CID1097
+$ENDCMP
+#
+$CMP R_TBD_TBD_CID1075
+D TBD resistor, , , TBD, CID1075
+K TBD, resistor, TBD, %, , CID1075
+$ENDCMP
 #
 $CMP R_TBD_TBD_CID1999
 D TBD resistor, , , TBD, CID1999
 K TBD, resistor, TBD, %, , CID1999
 $ENDCMP
 #
+#End Doc Library
