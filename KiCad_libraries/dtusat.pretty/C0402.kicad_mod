@@ -1,4 +1,4 @@
-(module C0402 (layer F.Cu) (tedit 5415D599)
+(module C0402 (layer F.Cu) (tedit 62C5C73D)
   (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
   (tags "capacitor 0402")
   (attr smd)
@@ -20,5 +20,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "C:/Users/Lenovo/Desktop/LoRa_Balloon/3D model/PCB/0402_C.STEP"
+    (offset (xyz 0 0 0.3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
   )
 )
