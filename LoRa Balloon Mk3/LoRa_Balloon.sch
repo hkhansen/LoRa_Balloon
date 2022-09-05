@@ -1382,12 +1382,12 @@ Reset
 $Comp
 L dtusat-power:+3.3V #PWR038
 U 1 1 5E0270B1
-P 7445 2120
-F 0 "#PWR038" H 7445 1970 35  0001 C CNN
-F 1 "+3.3V" H 7452 2282 35  0000 C CNN
-F 2 "" H 7445 2120 35  0000 C CNN
-F 3 "" H 7445 2120 35  0000 C CNN
-	1    7445 2120
+P 7200 2120
+F 0 "#PWR038" H 7200 1970 35  0001 C CNN
+F 1 "+3.3V" H 7207 2282 35  0000 C CNN
+F 2 "" H 7200 2120 35  0000 C CNN
+F 3 "" H 7200 2120 35  0000 C CNN
+	1    7200 2120
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1431,7 +1431,7 @@ F 3 "" H 9695 2770 35  0000 C CNN
 	1    9695 2770
 	1    0    0    -1  
 $EndComp
-Text Label 7995 1120 3    35   ~ 0
+Text Label 7400 2720 0    35   ~ 0
 RXTX_SW
 $Comp
 L dtusat-power:GND #PWR01
@@ -1691,10 +1691,6 @@ $EndComp
 Wire Wire Line
 	5515 5509 5534 5509
 Connection ~ 5515 5509
-Wire Wire Line
-	5750 7400 5825 7400
-Wire Wire Line
-	5750 7250 5825 7250
 $Comp
 L dtusat-power:GND #PWR027
 U 1 1 5DFC38A0
@@ -1742,8 +1738,6 @@ F 3 "https://eu.mouser.com/datasheet/2/268/ATmega48A_PA_88A_PA_168A_PA_328_P_DS_
 $EndComp
 Wire Wire Line
 	8445 1270 8445 1120
-Wire Wire Line
-	7645 2120 7445 2120
 $Comp
 L dtusat-power:GND #PWR039
 U 1 1 62C49B64
@@ -1822,20 +1816,15 @@ Wire Wire Line
 	8295 1120 8295 1470
 Wire Wire Line
 	8145 1470 8145 1120
-Wire Wire Line
-	7995 1120 7995 1470
 Connection ~ 9695 2570
 NoConn ~ 8595 3070
 NoConn ~ 8295 3070
 NoConn ~ 8145 3070
 NoConn ~ 7995 3070
-NoConn ~ 7645 2720
-NoConn ~ 7645 1820
-NoConn ~ 7645 1970
-Text Label 5825 7250 2    39   ~ 0
-TX
-Text Label 5825 7400 2    39   ~ 0
-RX
+Text Label 6000 7250 2    39   ~ 0
+GPS_RX
+Text Label 6000 7400 2    39   ~ 0
+GPS_TX
 $Comp
 L dtusat-ic:ublox_MAX-M8C U7
 U 1 1 630D6E38
@@ -1969,4 +1958,21 @@ Text Label 9450 2720 2    39   ~ 0
 SCK
 Wire Wire Line
 	9245 2720 9450 2720
+Wire Wire Line
+	5750 7250 6000 7250
+Wire Wire Line
+	5750 7400 6000 7400
+Text Label 7395 1820 0    39   ~ 0
+GPS_RX
+Text Label 7395 1970 0    39   ~ 0
+GPS_TX
+Wire Wire Line
+	7395 1820 7645 1820
+Wire Wire Line
+	7395 1970 7645 1970
+Wire Wire Line
+	7200 2120 7645 2120
+Wire Wire Line
+	7400 2720 7645 2720
+NoConn ~ 7995 1470
 $EndSCHEMATC
