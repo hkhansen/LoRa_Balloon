@@ -599,7 +599,7 @@ P 5217 1050
 F 0 "H1" H 5200 1257 35  0000 C CNN
 F 1 "EMI_shield" H 5200 1188 35  0000 C CNN
 F 2 "dtusat:BMI-S-203-F_EMI_shield" H 5217 1050 35  0001 C CNN
-F 3 "" H 5217 1050 35  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1965028.pdf" H 5217 1050 35  0001 C CNN
 	1    5217 1050
 	1    0    0    -1  
 $EndComp

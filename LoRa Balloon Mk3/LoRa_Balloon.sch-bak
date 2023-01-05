@@ -1431,7 +1431,7 @@ F 3 "" H 9695 2770 35  0000 C CNN
 	1    9695 2770
 	1    0    0    -1  
 $EndComp
-Text Label 7995 1120 3    35   ~ 0
+Text Label 7400 2720 0    35   ~ 0
 RXTX_SW
 $Comp
 L dtusat-power:GND #PWR01
@@ -1816,14 +1816,11 @@ Wire Wire Line
 	8295 1120 8295 1470
 Wire Wire Line
 	8145 1470 8145 1120
-Wire Wire Line
-	7995 1120 7995 1470
 Connection ~ 9695 2570
 NoConn ~ 8595 3070
 NoConn ~ 8295 3070
 NoConn ~ 8145 3070
 NoConn ~ 7995 3070
-NoConn ~ 7645 2720
 Text Label 6000 7250 2    39   ~ 0
 GPS_RX
 Text Label 6000 7400 2    39   ~ 0
@@ -1975,4 +1972,7 @@ Wire Wire Line
 	7395 1970 7645 1970
 Wire Wire Line
 	7200 2120 7645 2120
+Wire Wire Line
+	7400 2720 7645 2720
+NoConn ~ 7995 1470
 $EndSCHEMATC
