@@ -1,0 +1,1977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Lenovo\Desktop\LoRa_Balloon\LoRa Balloon Mk3\LoRa_Balloon.sch</source>
+    <date>06-09-2022 16:35:57</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LoRa Com module</title>
+        <company>DTU Space</company>
+        <rev>2</rev>
+        <date>2019-11-12</date>
+        <source>LoRa_Balloon.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Hans Kristian Bech Hansen"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>C_0402_100nF_CID2080</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2080</field>
+        <field name="Component value">100nF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_100nF_CID2080" description="100nF capacitor, 10%, X7R, 0402, CID2080"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEFBEE1</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C_0402_100nF_CID2080</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2080</field>
+        <field name="Component value">100nF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_100nF_CID2080" description="100nF capacitor, 10%, X7R, 0402, CID2080"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEFE1CA</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C_0402_100nF_CID2080</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2080</field>
+        <field name="Component value">100nF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_100nF_CID2080" description="100nF capacitor, 10%, X7R, 0402, CID2080"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEFEE38</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C_0402_100nF_CID2080</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2080</field>
+        <field name="Component value">100nF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_100nF_CID2080" description="100nF capacitor, 10%, X7R, 0402, CID2080"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEFF254</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C_0402_10nF_CID2082</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2082</field>
+        <field name="Component value">10nF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_10nF_CID2082" description="10nF capacitor, 10%, X7R, 0402, CID2082"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF1314F</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C_0402_47pF_CID2081</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2081</field>
+        <field name="Component value">47pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_47pF_CID2081" description="47pF capacitor, 5%, C0G, 0402, CID2081"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF13D1B</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>L_0402_2.7nH_CID3035</value>
+      <footprint>dtusat:L0402</footprint>
+      <fields>
+        <field name="CID">3035</field>
+        <field name="Component value">2.7nH</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">0.1nH</field>
+      </fields>
+      <libsource lib="dtusat-inductors" part="L_0402_2.7nH_CID3035" description="2.7nH, inductor, 0402, 0.1nH, SMD, CID3035"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF26C3D</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>X1E0000210162_CID142</value>
+      <footprint>dtusat:TSX-3225</footprint>
+      <datasheet>http://www.farnell.com/datasheets/526621.pdf?_ga=1.197279019.583306404.1491382241</datasheet>
+      <fields>
+        <field name="CID">142</field>
+      </fields>
+      <libsource lib="dtusat-ic" part="X1E0000210162_CID142" description="32 MHz crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF18FBD</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>C_0402_15pF_CID2083</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2083</field>
+        <field name="Component value">15pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_15pF_CID2083" description="15pF capacitor, 1%, C0G, 0402, CID2083"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF195DB</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>C_0402_15pF_CID2083</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2083</field>
+        <field name="Component value">15pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_15pF_CID2083" description="15pF capacitor, 1%, C0G, 0402, CID2083"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF1A15F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SX1272IMLTRICT-ND_CID104</value>
+      <footprint>dtusat:QFN-28</footprint>
+      <datasheet>https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/440000001NCE/v_VBhk1IolDgxwwnOpcS_vTFxPfSEPQbuneK3mWsXlU</datasheet>
+      <fields>
+        <field name="CID">104</field>
+      </fields>
+      <libsource lib="dtusat-ic" part="SX1272IMLTRICT-ND_CID104" description="IC 860-1020MHX TXRX"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEF895B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_0402_10k_CID1101</value>
+      <footprint>dtusat:R0402</footprint>
+      <fields>
+        <field name="CID">1101</field>
+        <field name="Component value">10k</field>
+        <field name="Technology">Thickfilm</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="dtusat-resistors" part="R_0402_10k_CID1101" description="10k resistor, 1%, Thickfilm, 0402, CID1101"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF46196</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>L_0402_10nH_CID3037</value>
+      <footprint>dtusat:L0402</footprint>
+      <fields>
+        <field name="CID">3037</field>
+        <field name="Component value">10nH</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">2%</field>
+      </fields>
+      <libsource lib="dtusat-inductors" part="L_0402_10nH_CID3037" description="10nH, inductor, 0402, 2%, SMD, CID3037"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEFE691</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>C_0402_3.3pF_CID2084</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2084</field>
+        <field name="Component value">3.3pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.25pF</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_3.3pF_CID2084" description="3.3pF capacitor, 0.25pF, C0G, 0402, CID2084"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF00314</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>C_0402_8.2pF_CID2088</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2088</field>
+        <field name="Component value">8.2pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.25pF</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_8.2pF_CID2088" description="8.2pF capacitor, 0.25pF, C0G, 0402, CID2088"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF0AEAF</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>C_0402_22pF_CID2090</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2090</field>
+        <field name="Component value">22pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_22pF_CID2090" description="22pF capacitor, 5%, C0G, 0402, CID2090"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF0B4D5</tstamp>
+    </comp>
+    <comp ref="L8">
+      <value>L_0402_5.6nH_CID3036</value>
+      <footprint>dtusat:L0402</footprint>
+      <fields>
+        <field name="CID">3036</field>
+        <field name="Component value">5.6nH</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">0.2nH</field>
+      </fields>
+      <libsource lib="dtusat-inductors" part="L_0402_5.6nH_CID3036" description="5.6nH, inductor, 0402, 0.2nH, SMD, CID3036"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF0BE2C</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>C_0402_8.2pF_CID2088</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2088</field>
+        <field name="Component value">8.2pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.25pF</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_8.2pF_CID2088" description="8.2pF capacitor, 0.25pF, C0G, 0402, CID2088"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF0C342</tstamp>
+    </comp>
+    <comp ref="L9">
+      <value>L_0402_5.6nH_CID3036</value>
+      <footprint>dtusat:L0402</footprint>
+      <fields>
+        <field name="CID">3036</field>
+        <field name="Component value">5.6nH</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">0.2nH</field>
+      </fields>
+      <libsource lib="dtusat-inductors" part="L_0402_5.6nH_CID3036" description="5.6nH, inductor, 0402, 0.2nH, SMD, CID3036"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF0C712</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>C_0402_1.5pF_CID2087</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2087</field>
+        <field name="Component value">1.5pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.1pF</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_1.5pF_CID2087" description="1.5pF capacitor, 0.1pF, C0G, 0402, CID2087"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF0D7B8</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>C_0402_3.3pF_CID2084</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2084</field>
+        <field name="Component value">3.3pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.25pF</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_3.3pF_CID2084" description="3.3pF capacitor, 0.25pF, C0G, 0402, CID2084"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF0DDFC</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>EMI_shield</value>
+      <footprint>dtusat:BMI-S-203-F_EMI_shield</footprint>
+      <libsource lib="dtusat-other" part="EMI_shield" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF33D97</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C_0805_10uF_CID2079</value>
+      <footprint>dtusat:C0805</footprint>
+      <fields>
+        <field name="CID">2079</field>
+        <field name="Component value">10uF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0805_10uF_CID2079" description="10uF capacitor, 10%, X7R, 0805, CID2079"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF363D0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C_0402_1.8pF_CID2085</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2085</field>
+        <field name="Component value">1.8pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.1pF</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_1.8pF_CID2085" description="1.8pF capacitor, 0.1pF, C0G, 0402, CID2085"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF3905E</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C_0402_20pF_CID2086</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2086</field>
+        <field name="Component value">20pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_20pF_CID2086" description="20pF capacitor, 5%, C0G, 0402, CID2086"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF3A372</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>L_0402_10nH_CID3037</value>
+      <footprint>dtusat:L0402</footprint>
+      <fields>
+        <field name="CID">3037</field>
+        <field name="Component value">10nH</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">2%</field>
+      </fields>
+      <libsource lib="dtusat-inductors" part="L_0402_10nH_CID3037" description="10nH, inductor, 0402, 2%, SMD, CID3037"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF3AC70</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SKY67013-396LF_CID141</value>
+      <footprint>dtusat:DFN-8</footprint>
+      <datasheet>http://www.skyworksinc.com/uploads/documents/SKY67150_396LF_202922H.pdf</datasheet>
+      <fields>
+        <field name="CID">141</field>
+      </fields>
+      <libsource lib="dtusat-ic" part="SKY67013-396LF_CID141" description="300 to 2200 MHz Ultra Low-Noise Amplifier"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF3B7DD</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C_0402_10pF_CID2089</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2089</field>
+        <field name="Component value">10pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_10pF_CID2089" description="10pF capacitor, 1%, C0G, 0402, CID2089"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4D83D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_0402_6k2_CID1104</value>
+      <footprint>dtusat:R0402</footprint>
+      <fields>
+        <field name="CID">1104</field>
+        <field name="Component value">6k2</field>
+        <field name="Technology">Ceramic</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="dtusat-resistors" part="R_0402_6k2_CID1104" description="6k2 resistor, 1%, Ceramic, 0402, CID1104"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF4FAB6</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>C_0402_0.5pF_CID2091</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2091</field>
+        <field name="Component value">0.5pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.1pF</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_0.5pF_CID2091" description="0.5pF capacitor, 0.1pF, C0G, 0402, CID2091"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF51B26</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>C_0402_10nF_CID2082</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2082</field>
+        <field name="Component value">10nF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_10nF_CID2082" description="10nF capacitor, 10%, X7R, 0402, CID2082"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF52095</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>L_0402_8.2nH_CID3038</value>
+      <footprint>dtusat:L0402</footprint>
+      <fields>
+        <field name="CID">3038</field>
+        <field name="Component value">8.2nH</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">2%</field>
+      </fields>
+      <libsource lib="dtusat-inductors" part="L_0402_8.2nH_CID3038" description="8.2nH, inductor, 0402, 2%, SMD, CID3038"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF5288E</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>C_0402_2.4pF_CID2093</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2093</field>
+        <field name="Component value">2.4pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.05pF</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_2.4pF_CID2093" description="2.4pF capacitor, 0.05pF, C0G, 0402, CID2093"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF80F54</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>C_0402_1.8pF_CID2085</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2085</field>
+        <field name="Component value">1.8pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.1pF</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_1.8pF_CID2085" description="1.8pF capacitor, 0.1pF, C0G, 0402, CID2085"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF820AC</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>C_0402_20pF_CID2086</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2086</field>
+        <field name="Component value">20pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_20pF_CID2086" description="20pF capacitor, 5%, C0G, 0402, CID2086"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF86C76</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>L_0402_10nH_CID3037</value>
+      <footprint>dtusat:L0402</footprint>
+      <fields>
+        <field name="CID">3037</field>
+        <field name="Component value">10nH</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">2%</field>
+      </fields>
+      <libsource lib="dtusat-inductors" part="L_0402_10nH_CID3037" description="10nH, inductor, 0402, 2%, SMD, CID3037"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF83CA2</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>C_0402_2.4pF_CID2093</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2093</field>
+        <field name="Component value">2.4pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.05pF</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_2.4pF_CID2093" description="2.4pF capacitor, 0.05pF, C0G, 0402, CID2093"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFA0367</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>L_0402_8.2nH_CID3038</value>
+      <footprint>dtusat:L0402</footprint>
+      <fields>
+        <field name="CID">3038</field>
+        <field name="Component value">8.2nH</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">2%</field>
+      </fields>
+      <libsource lib="dtusat-inductors" part="L_0402_8.2nH_CID3038" description="8.2nH, inductor, 0402, 2%, SMD, CID3038"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFA0326</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>C_0402_10nF_CID2082</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2082</field>
+        <field name="Component value">10nF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_10nF_CID2082" description="10nF capacitor, 10%, X7R, 0402, CID2082"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFA0318</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>C_0402_0.5pF_CID2091</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2091</field>
+        <field name="Component value">0.5pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.1pF</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_0.5pF_CID2091" description="0.5pF capacitor, 0.1pF, C0G, 0402, CID2091"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFA030A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_0402_6k2_CID1104</value>
+      <footprint>dtusat:R0402</footprint>
+      <fields>
+        <field name="CID">1104</field>
+        <field name="Component value">6k2</field>
+        <field name="Technology">Ceramic</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="dtusat-resistors" part="R_0402_6k2_CID1104" description="6k2 resistor, 1%, Ceramic, 0402, CID1104"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFA02FC</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>C_0402_10pF_CID2089</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2089</field>
+        <field name="Component value">10pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_10pF_CID2089" description="10pF capacitor, 1%, C0G, 0402, CID2089"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFA02EE</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SKY67013-396LF_CID141</value>
+      <footprint>dtusat:DFN-8</footprint>
+      <datasheet>http://www.skyworksinc.com/uploads/documents/SKY67150_396LF_202922H.pdf</datasheet>
+      <fields>
+        <field name="CID">141</field>
+      </fields>
+      <libsource lib="dtusat-ic" part="SKY67013-396LF_CID141" description="300 to 2200 MHz Ultra Low-Noise Amplifier"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFA02DF</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>PE4259_CID105</value>
+      <footprint>dtusat:SC70-6</footprint>
+      <datasheet>http://www.psemi.com/pdf/datasheets/pe4259ds.pdf</datasheet>
+      <fields>
+        <field name="CID">105</field>
+      </fields>
+      <libsource lib="dtusat-ic" part="PE4259_CID105" description="IC RF Switch Spot 50 ohm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFDE7CB</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>C_0402_1nF_CID2092</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2092</field>
+        <field name="Component value">1nF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_1nF_CID2092" description="1nF capacitor, 1%, C0G, 0402, CID2092"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFE016A</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>C_0402_1nF_CID2092</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2092</field>
+        <field name="Component value">1nF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_1nF_CID2092" description="1nF capacitor, 1%, C0G, 0402, CID2092"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFE1587</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>C_0402_47pF_CID2081</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2081</field>
+        <field name="Component value">47pF</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_47pF_CID2081" description="47pF capacitor, 5%, C0G, 0402, CID2081"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFE1D6E</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>7A-12.000MAAJ-T_CID117</value>
+      <footprint>dtusat:TXC14.3</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1041607.pdf</datasheet>
+      <fields>
+        <field name="CID">117</field>
+        <field name="Component value">12 MHz</field>
+      </fields>
+      <libsource lib="dtusat-ic" part="7A-12.000MAAJ-T_CID117" description="12MHz OBC crystal 7A-series"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF679F2</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>C_0603_18pF_CID2019</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2019</field>
+        <field name="Component value">18pF</field>
+        <field name="Dielectric">NP0</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0603_18pF_CID2019" description="18pF capacitor, 5%, NP0, 0603, CID2019"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF692A6</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>C_0603_18pF_CID2019</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2019</field>
+        <field name="Component value">18pF</field>
+        <field name="Dielectric">NP0</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0603_18pF_CID2019" description="18pF capacitor, 5%, NP0, 0603, CID2019"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF69A0A</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>C_0402_100nF_CID2072</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2072</field>
+        <field name="Component value">100nF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_100nF_CID2072" description="100nF capacitor, 10%, X7R, 0402, CID2072"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E035205</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>C_0402_100nF_CID2072</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2072</field>
+        <field name="Component value">100nF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_100nF_CID2072" description="100nF capacitor, 10%, X7R, 0402, CID2072"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0A664B</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>L_0402_33nH_CID3034</value>
+      <footprint>dtusat:L0402</footprint>
+      <fields>
+        <field name="CID">3034</field>
+        <field name="Component value">33nH</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">2nH</field>
+      </fields>
+      <libsource lib="dtusat-inductors" part="L_0402_33nH_CID3034" description="33nH, inductor, 0402, 2nH, SMD, CID3034"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF319CF</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>C_1206_4.7uF_CID2013_small</value>
+      <footprint>dtusat:C0603</footprint>
+      <fields>
+        <field name="CID">2013</field>
+        <field name="Component value">4.7uF</field>
+        <field name="Dielectric">Y5V</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_1206_4.7uF_CID2013_small" description="4.7uF capacitor, , Y5V, 1206, CID2013"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF9F7BB</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>C_1206_4.7uF_CID2013_small</value>
+      <footprint>dtusat:C0603</footprint>
+      <fields>
+        <field name="CID">2013</field>
+        <field name="Component value">10uF</field>
+        <field name="Dielectric">Y5V</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_1206_4.7uF_CID2013_small" description="4.7uF capacitor, , Y5V, 1206, CID2013"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFAC1A0</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>SAW_869MHz</value>
+      <footprint>dtusat:SAW_869MHz</footprint>
+      <libsource lib="dtusat-ic" part="SAW_869MHz" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFFB2C3</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>868MHz_ceramic_antenna</value>
+      <footprint>dtusat:Antenna_868MHz</footprint>
+      <libsource lib="dtusat-other" part="868MHz_ceramic_antenna" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E027AA2</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>XCL205</value>
+      <footprint>dtusat:XCL205</footprint>
+      <libsource lib="dtusat-ic" part="XCL205" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF7C563</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>ATMEGA328P-MMH</value>
+      <footprint>dtusat:ATMega328P_MMH</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/268/ATmega48A_PA_88A_PA_168A_PA_328_P_DS_DS40002061B-1900559.pdf</datasheet>
+      <libsource lib="ATMEGA328P-AU" part="ATMEGA328P-MMH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C205E1</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>C_0402_100nF_CID2072</value>
+      <footprint>dtusat:C0402</footprint>
+      <fields>
+        <field name="CID">2072</field>
+        <field name="Component value">100nF</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <libsource lib="dtusat-capacitors" part="C_0402_100nF_CID2072" description="100nF capacitor, 10%, X7R, 0402, CID2072"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C5FCF2</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>ublox_MAX-M8C</value>
+      <footprint>dtusat:ublox_MAX-M8C</footprint>
+      <libsource lib="dtusat-ic" part="ublox_MAX-M8C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>630D6E38</tstamp>
+    </comp>
+    <comp ref="A2">
+      <value>GPS_ceramic_antenna</value>
+      <footprint>dtusat:Ceramic_Antenna</footprint>
+      <libsource lib="dtusat-other" part="GPS_ceramic_antenna" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63129460</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Edge_connector_9_pin</value>
+      <footprint>dtusat:Edge_connector_9_pin</footprint>
+      <libsource lib="dtusat-other" part="Edge_connector_9_pin" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>631B851F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ATMEGA328P-AU" part="ATMEGA328P-MMH">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA328P-MMH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="input"/>
+        <pin num="2" name="PD4" type="input"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PB6" type="input"/>
+        <pin num="6" name="PB7" type="input"/>
+        <pin num="7" name="PD5" type="input"/>
+        <pin num="8" name="PD6" type="input"/>
+        <pin num="9" name="PD7" type="input"/>
+        <pin num="10" name="PB0" type="input"/>
+        <pin num="11" name="PB1" type="input"/>
+        <pin num="12" name="PB2" type="input"/>
+        <pin num="13" name="PB3" type="input"/>
+        <pin num="14" name="PB4" type="input"/>
+        <pin num="15" name="PB5" type="input"/>
+        <pin num="16" name="AVCC" type="power_in"/>
+        <pin num="17" name="AREF" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="PC0" type="input"/>
+        <pin num="20" name="PC1" type="input"/>
+        <pin num="21" name="PC2" type="input"/>
+        <pin num="22" name="PC3" type="input"/>
+        <pin num="23" name="PC4" type="input"/>
+        <pin num="24" name="PC5" type="input"/>
+        <pin num="25" name="PC6" type="input"/>
+        <pin num="26" name="PD0" type="input"/>
+        <pin num="27" name="PD1" type="input"/>
+        <pin num="28" name="PD2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_0.5pF_CID2091">
+      <description>0.5pF capacitor, 0.1pF, C0G, 0402, CID2091</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_0.5pF_CID2091</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">0.5pF</field>
+        <field name="CID">2091</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.1pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_1.5pF_CID2087">
+      <description>1.5pF capacitor, 0.1pF, C0G, 0402, CID2087</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_1.5pF_CID2087</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">1.5pF</field>
+        <field name="CID">2087</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.1pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_1.8pF_CID2085">
+      <description>1.8pF capacitor, 0.1pF, C0G, 0402, CID2085</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_1.8pF_CID2085</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">1.8pF</field>
+        <field name="CID">2085</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.1pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_100nF_CID2072">
+      <description>100nF capacitor, 10%, X7R, 0402, CID2072</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_100nF_CID2072</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">100nF</field>
+        <field name="CID">2072</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_100nF_CID2080">
+      <description>100nF capacitor, 10%, X7R, 0402, CID2080</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_100nF_CID2080</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">100nF</field>
+        <field name="CID">2080</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_10nF_CID2082">
+      <description>10nF capacitor, 10%, X7R, 0402, CID2082</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_10nF_CID2082</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">10nF</field>
+        <field name="CID">2082</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_10pF_CID2089">
+      <description>10pF capacitor, 1%, C0G, 0402, CID2089</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_10pF_CID2089</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">10pF</field>
+        <field name="CID">2089</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_15pF_CID2083">
+      <description>15pF capacitor, 1%, C0G, 0402, CID2083</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_15pF_CID2083</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">15pF</field>
+        <field name="CID">2083</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_1nF_CID2092">
+      <description>1nF capacitor, 1%, C0G, 0402, CID2092</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_1nF_CID2092</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">1nF</field>
+        <field name="CID">2092</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_2.4pF_CID2093">
+      <description>2.4pF capacitor, 0.05pF, C0G, 0402, CID2093</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_2.4pF_CID2093</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">2.4pF</field>
+        <field name="CID">2093</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.05pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_20pF_CID2086">
+      <description>20pF capacitor, 5%, C0G, 0402, CID2086</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_20pF_CID2086</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">20pF</field>
+        <field name="CID">2086</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_22pF_CID2090">
+      <description>22pF capacitor, 5%, C0G, 0402, CID2090</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_22pF_CID2090</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">22pF</field>
+        <field name="CID">2090</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_3.3pF_CID2084">
+      <description>3.3pF capacitor, 0.25pF, C0G, 0402, CID2084</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_3.3pF_CID2084</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">3.3pF</field>
+        <field name="CID">2084</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.25pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_47pF_CID2081">
+      <description>47pF capacitor, 5%, C0G, 0402, CID2081</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_47pF_CID2081</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">47pF</field>
+        <field name="CID">2081</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0402_8.2pF_CID2088">
+      <description>8.2pF capacitor, 0.25pF, C0G, 0402, CID2088</description>
+      <footprints>
+        <fp>dtusat:C0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0402_8.2pF_CID2088</field>
+        <field name="Footprint">dtusat:C0402</field>
+        <field name="Component value">8.2pF</field>
+        <field name="CID">2088</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Tolerance">0.25pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0603_18pF_CID2019">
+      <description>18pF capacitor, 5%, NP0, 0603, CID2019</description>
+      <footprints>
+        <fp>dtusat:C0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0603_18pF_CID2019</field>
+        <field name="Footprint">dtusat:C0603</field>
+        <field name="Component value">18pF</field>
+        <field name="CID">2019</field>
+        <field name="Dielectric">NP0</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_0805_10uF_CID2079">
+      <description>10uF capacitor, 10%, X7R, 0805, CID2079</description>
+      <footprints>
+        <fp>dtusat:C0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0805_10uF_CID2079</field>
+        <field name="Footprint">dtusat:C0805</field>
+        <field name="Component value">10uF</field>
+        <field name="CID">2079</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Tolerance">10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-capacitors" part="C_1206_4.7uF_CID2013_small">
+      <description>4.7uF capacitor, , Y5V, 1206, CID2013</description>
+      <footprints>
+        <fp>dtusat:C1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1206_4.7uF_CID2013_small</field>
+        <field name="Footprint">dtusat:C1206</field>
+        <field name="Component value">4.7uF</field>
+        <field name="CID">2013</field>
+        <field name="Dielectric">Y5V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-ic" part="7A-12.000MAAJ-T_CID117">
+      <description>12MHz OBC crystal 7A-series</description>
+      <footprints>
+        <fp>dtusat:SMT50X32-2</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">7A-12.000MAAJ-T_CID117</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1041607.pdf</field>
+        <field name="CID">117</field>
+        <field name="Component value">12 MHz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-ic" part="PE4259_CID105">
+      <description>IC RF Switch Spot 50 ohm</description>
+      <footprints>
+        <fp>dtusat:SC70-6</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PE4259_CID105</field>
+        <field name="Footprint">dtusat:SC70-6</field>
+        <field name="Datasheet">http://www.psemi.com/pdf/datasheets/pe4259ds.pdf</field>
+        <field name="CID">105</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RF1" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="RF2" type="output"/>
+        <pin num="4" name="CTRL" type="input"/>
+        <pin num="5" name="RFC" type="input"/>
+        <pin num="6" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-ic" part="SAW_869MHz">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">SAW_869MHz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="Input" type="input"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="Output" type="output"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-ic" part="SKY67013-396LF_CID141">
+      <description>300 to 2200 MHz Ultra Low-Noise Amplifier</description>
+      <footprints>
+        <fp>dtusat:DFN-8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SKY67013-396LF_CID141</field>
+        <field name="Footprint">dtusat:DFN-8</field>
+        <field name="Datasheet">http://www.skyworksinc.com/uploads/documents/SKY67150_396LF_202922H.pdf</field>
+        <field name="CID">141</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBIAS" type="input"/>
+        <pin num="2" name="RF_IN" type="input"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="RF_OUT/VDD" type="output"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-ic" part="SX1272IMLTRICT-ND_CID104">
+      <description>IC 860-1020MHX TXRX</description>
+      <footprints>
+        <fp>dtusat:QFN-28</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SX1272IMLTRICT-ND_CID104</field>
+        <field name="Footprint">dtusat:QFN-28</field>
+        <field name="Datasheet">http://www.semtech.com/images/datasheet/sx1272.pdf</field>
+        <field name="CID">104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT1" type="power_in"/>
+        <pin num="2" name="VR_ANA" type="power_in"/>
+        <pin num="3" name="VR_DIG" type="power_in"/>
+        <pin num="4" name="XTA" type="input"/>
+        <pin num="5" name="XTB" type="output"/>
+        <pin num="6" name="Reset" type="input"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="NC" type="passive"/>
+        <pin num="9" name="DIO0" type="BiDi"/>
+        <pin num="10" name="DIO1" type="BiDi"/>
+        <pin num="11" name="DIO2" type="BiDi"/>
+        <pin num="12" name="DIO3" type="BiDi"/>
+        <pin num="13" name="DIO4" type="BiDi"/>
+        <pin num="14" name="DIO5" type="BiDi"/>
+        <pin num="15" name="VBAT2" type="power_in"/>
+        <pin num="16" name="GND" type="power_in"/>
+        <pin num="17" name="SCK" type="BiDi"/>
+        <pin num="18" name="MISO" type="output"/>
+        <pin num="19" name="MOSI" type="input"/>
+        <pin num="20" name="NSS" type="input"/>
+        <pin num="21" name="RF_MOD" type="NotConnected"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="RXTX" type="output"/>
+        <pin num="24" name="RFO" type="output"/>
+        <pin num="25" name="RFI" type="input"/>
+        <pin num="26" name="GND" type="power_in"/>
+        <pin num="27" name="PA_BOOST" type="output"/>
+        <pin num="28" name="VR_PA" type="power_out"/>
+        <pin num="29" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-ic" part="X1E0000210162_CID142">
+      <description>32 MHz crystal</description>
+      <footprints>
+        <fp>dtusat:</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">X1E0000210162_CID142</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/526621.pdf?_ga=1.197279019.583306404.1491382241</field>
+        <field name="CID">142</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-ic" part="XCL205">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XCL205</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Lx" type="passive"/>
+        <pin num="1-UB" name="Lx" type="passive"/>
+        <pin num="1-UC" name="Lx" type="passive"/>
+        <pin num="1-UD" name="Lx" type="passive"/>
+        <pin num="1-UE" name="Lx" type="passive"/>
+        <pin num="1-UF" name="Lx" type="passive"/>
+        <pin num="1-UG" name="Lx" type="passive"/>
+        <pin num="1-UH" name="Lx" type="passive"/>
+        <pin num="2" name="Vss" type="passive"/>
+        <pin num="3" name="V_out" type="output"/>
+        <pin num="3-UB" name="V_out" type="output"/>
+        <pin num="3-UC" name="V_out" type="output"/>
+        <pin num="3-UD" name="V_out" type="output"/>
+        <pin num="3-UE" name="V_out" type="output"/>
+        <pin num="3-UF" name="V_out" type="output"/>
+        <pin num="3-UG" name="V_out" type="output"/>
+        <pin num="3-UH" name="V_out" type="output"/>
+        <pin num="4" name="CE" type="input"/>
+        <pin num="4-UB" name="CE" type="input"/>
+        <pin num="4-UC" name="CE" type="input"/>
+        <pin num="4-UD" name="CE" type="input"/>
+        <pin num="4-UE" name="CE" type="input"/>
+        <pin num="4-UF" name="CE" type="input"/>
+        <pin num="4-UG" name="CE" type="input"/>
+        <pin num="4-UH" name="CE" type="input"/>
+        <pin num="5" name="Vss" type="passive"/>
+        <pin num="5-UB" name="Vss" type="passive"/>
+        <pin num="5-UC" name="Vss" type="passive"/>
+        <pin num="5-UD" name="Vss" type="passive"/>
+        <pin num="5-UE" name="Vss" type="passive"/>
+        <pin num="5-UF" name="Vss" type="passive"/>
+        <pin num="5-UG" name="Vss" type="passive"/>
+        <pin num="5-UH" name="Vss" type="passive"/>
+        <pin num="6" name="V_in" type="input"/>
+        <pin num="6-UB" name="V_in" type="input"/>
+        <pin num="6-UC" name="V_in" type="input"/>
+        <pin num="6-UD" name="V_in" type="input"/>
+        <pin num="6-UE" name="V_in" type="input"/>
+        <pin num="6-UF" name="V_in" type="input"/>
+        <pin num="6-UG" name="V_in" type="input"/>
+        <pin num="6-UH" name="V_in" type="input"/>
+        <pin num="7" name="L1" type="passive"/>
+        <pin num="7-UB" name="L1" type="passive"/>
+        <pin num="7-UC" name="L1" type="passive"/>
+        <pin num="7-UD" name="L1" type="passive"/>
+        <pin num="7-UE" name="L1" type="passive"/>
+        <pin num="7-UF" name="L1" type="passive"/>
+        <pin num="7-UG" name="L1" type="passive"/>
+        <pin num="7-UH" name="L1" type="passive"/>
+        <pin num="8" name="L2" type="passive"/>
+        <pin num="8-UB" name="L2" type="passive"/>
+        <pin num="8-UC" name="L2" type="passive"/>
+        <pin num="8-UD" name="L2" type="passive"/>
+        <pin num="8-UE" name="L2" type="passive"/>
+        <pin num="8-UF" name="L2" type="passive"/>
+        <pin num="8-UG" name="L2" type="passive"/>
+        <pin num="8-UH" name="L2" type="passive"/>
+        <pin num="Vss-UB" name="Vss" type="passive"/>
+        <pin num="Vss-UC" name="Vss" type="passive"/>
+        <pin num="Vss-UD" name="Vss" type="passive"/>
+        <pin num="Vss-UE" name="Vss" type="passive"/>
+        <pin num="Vss-UF" name="Vss" type="passive"/>
+        <pin num="Vss-UG" name="Vss" type="passive"/>
+        <pin num="Vss-UH" name="Vss" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-ic" part="ublox_MAX-M8C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ublox_MAX-M8C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="TXD" type="output"/>
+        <pin num="3" name="RXD" type="input"/>
+        <pin num="4" name="TIMEPULSE" type="output"/>
+        <pin num="5" name="EXTINT" type="input"/>
+        <pin num="6" name="V_BCKP" type="input"/>
+        <pin num="7" name="VCC_IO" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+        <pin num="9" name="RESET_N" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="RF_IN" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="LNA_EN" type="input"/>
+        <pin num="14" name="VCC_RF" type="input"/>
+        <pin num="15" name="RESERVED" type="input"/>
+        <pin num="16" name="SDA" type="input"/>
+        <pin num="17" name="SCL" type="input"/>
+        <pin num="18" name="SAFEBOOT_N" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-inductors" part="L_0402_10nH_CID3037">
+      <description>10nH, inductor, 0402, 2%, SMD, CID3037</description>
+      <footprints>
+        <fp>dtusat:L0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0402_10nH_CID3037</field>
+        <field name="Footprint">dtusat:L0402</field>
+        <field name="Component value">10nH</field>
+        <field name="CID">3037</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">2%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-inductors" part="L_0402_2.7nH_CID3035">
+      <description>2.7nH, inductor, 0402, 0.1nH, SMD, CID3035</description>
+      <footprints>
+        <fp>dtusat:L0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0402_2.7nH_CID3035</field>
+        <field name="Footprint">dtusat:L0402</field>
+        <field name="Component value">2.7nH</field>
+        <field name="CID">3035</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">0.1nH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-inductors" part="L_0402_33nH_CID3034">
+      <description>33nH, inductor, 0402, 2nH, SMD, CID3034</description>
+      <footprints>
+        <fp>dtusat:L0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0402_33nH_CID3034</field>
+        <field name="Footprint">dtusat:L0402</field>
+        <field name="Component value">33nH</field>
+        <field name="CID">3034</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">2nH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-inductors" part="L_0402_5.6nH_CID3036">
+      <description>5.6nH, inductor, 0402, 0.2nH, SMD, CID3036</description>
+      <footprints>
+        <fp>dtusat:L0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0402_5.6nH_CID3036</field>
+        <field name="Footprint">dtusat:L0402</field>
+        <field name="Component value">5.6nH</field>
+        <field name="CID">3036</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">0.2nH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-inductors" part="L_0402_8.2nH_CID3038">
+      <description>8.2nH, inductor, 0402, 2%, SMD, CID3038</description>
+      <footprints>
+        <fp>dtusat:L0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0402_8.2nH_CID3038</field>
+        <field name="Footprint">dtusat:L0402</field>
+        <field name="Component value">8.2nH</field>
+        <field name="CID">3038</field>
+        <field name="Technology">SMD</field>
+        <field name="Tolerance">2%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-other" part="868MHz_ceramic_antenna">
+      <fields>
+        <field name="Reference">A?</field>
+        <field name="Value">868MHz_ceramic_antenna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-other" part="EMI_shield">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">EMI_shield</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-other" part="Edge_connector_9_pin">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Edge_connector_9_pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="BiDi"/>
+        <pin num="6" name="~" type="BiDi"/>
+        <pin num="7" name="~" type="BiDi"/>
+        <pin num="8" name="~" type="BiDi"/>
+        <pin num="9" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-other" part="GPS_ceramic_antenna">
+      <fields>
+        <field name="Reference">A?</field>
+        <field name="Value">GPS_ceramic_antenna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-resistors" part="R_0402_10k_CID1101">
+      <description>10k resistor, 1%, Thickfilm, 0402, CID1101</description>
+      <footprints>
+        <fp>dtusat:R0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0402_10k_CID1101</field>
+        <field name="Footprint">dtusat:R0402</field>
+        <field name="Component value">10k</field>
+        <field name="CID">1101</field>
+        <field name="Technology">Thickfilm</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dtusat-resistors" part="R_0402_6k2_CID1104">
+      <description>6k2 resistor, 1%, Ceramic, 0402, CID1104</description>
+      <footprints>
+        <fp>dtusat:R0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0402_6k2_CID1104</field>
+        <field name="Footprint">dtusat:R0402</field>
+        <field name="Component value">6k2</field>
+        <field name="CID">1104</field>
+        <field name="Technology">Ceramic</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ATMEGA328P-AU">
+      <uri>C:/Users/Lenovo/Desktop/LoRa_Balloon/KiCad_libraries/ATMEGA328P-AU.lib</uri>
+    </library>
+    <library logical="dtusat-capacitors">
+      <uri>C:/Users/Lenovo/Desktop/LoRa_Balloon/KiCad_libraries/dtusat-capacitors.lib</uri>
+    </library>
+    <library logical="dtusat-ic">
+      <uri>C:/Users/Lenovo/Desktop/LoRa_Balloon/KiCad_libraries/dtusat-ic.lib</uri>
+    </library>
+    <library logical="dtusat-inductors">
+      <uri>C:/Users/Lenovo/Desktop/LoRa_Balloon/KiCad_libraries/dtusat-inductors.lib</uri>
+    </library>
+    <library logical="dtusat-other">
+      <uri>C:/Users/Lenovo/Desktop/LoRa_Balloon/KiCad_libraries/dtusat-other.lib</uri>
+    </library>
+    <library logical="dtusat-resistors">
+      <uri>C:/Users/Lenovo/Desktop/LoRa_Balloon/KiCad_libraries/dtusat-resistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Reset_SX">
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="U5" pin="6"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="L7" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U6" pin="16"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U7" pin="6"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="L3" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="F1" pin="1"/>
+      <node ref="U7" pin="15"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U1" pin="9"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C36" pin="1"/>
+      <node ref="U7" pin="10"/>
+      <node ref="U7" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U2" pin="22"/>
+      <node ref="C20" pin="2"/>
+      <node ref="J2" pin="9"/>
+      <node ref="U7" pin="12"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U6" pin="18"/>
+      <node ref="U2" pin="29"/>
+      <node ref="U2" pin="26"/>
+      <node ref="H1" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="F1" pin="3"/>
+      <node ref="F1" pin="4"/>
+      <node ref="F1" pin="6"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U3" pin="9"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="5" name="/RXTX_SW">
+      <node ref="U2" pin="23"/>
+      <node ref="C30" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="6" name="/SX1272_RF_TX">
+      <node ref="C22" pin="2"/>
+      <node ref="L4" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(A1-Pad1)">
+      <node ref="A1" pin="1"/>
+      <node ref="F1" pin="5"/>
+    </net>
+    <net code="9" name="/RF_antenna">
+      <node ref="F1" pin="2"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C35-Pad2)">
+      <node ref="U6" pin="25"/>
+      <node ref="C35" pin="2"/>
+    </net>
+    <net code="11" name="/RF_TX">
+      <node ref="C29" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="L9" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="12" name="/RF_RX">
+      <node ref="C1" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="13" name="Net-(C32-Pad2)">
+      <node ref="C32" pin="2"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="14" name="/LNA2_out">
+      <node ref="C23" pin="1"/>
+      <node ref="L6" pin="1"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C34-Pad2)">
+      <node ref="C34" pin="2"/>
+      <node ref="X2" pin="1"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="16" name="/RX">
+      <node ref="J2" pin="6"/>
+      <node ref="U6" pin="26"/>
+    </net>
+    <net code="17" name="/TX">
+      <node ref="J2" pin="7"/>
+      <node ref="U6" pin="27"/>
+    </net>
+    <net code="18" name="/Reset">
+      <node ref="C35" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="19" name="Net-(U7-Pad17)">
+      <node ref="U7" pin="17"/>
+    </net>
+    <net code="20" name="Net-(U7-Pad16)">
+      <node ref="U7" pin="16"/>
+    </net>
+    <net code="21" name="Net-(U7-Pad14)">
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="22" name="Net-(U7-Pad13)">
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="23" name="Net-(U7-Pad18)">
+      <node ref="U7" pin="18"/>
+    </net>
+    <net code="24" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="25" name="Net-(U7-Pad9)">
+      <node ref="U7" pin="9"/>
+    </net>
+    <net code="26" name="Net-(A2-Pad1)">
+      <node ref="U7" pin="11"/>
+      <node ref="A2" pin="1"/>
+    </net>
+    <net code="27" name="/SCK">
+      <node ref="U2" pin="17"/>
+      <node ref="U6" pin="15"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="28" name="/GPS_RX">
+      <node ref="U7" pin="3"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="29" name="/GPS_TX">
+      <node ref="U6" pin="2"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="30" name="Net-(U6-Pad28)">
+      <node ref="U6" pin="28"/>
+    </net>
+    <net code="31" name="Net-(C26-Pad1)">
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C26" pin="1"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="32" name="Net-(C36-Pad2)">
+      <node ref="C36" pin="2"/>
+      <node ref="U6" pin="17"/>
+    </net>
+    <net code="33" name="/DIO5">
+      <node ref="U2" pin="14"/>
+      <node ref="U6" pin="19"/>
+    </net>
+    <net code="34" name="/DIO4">
+      <node ref="U2" pin="13"/>
+      <node ref="U6" pin="20"/>
+    </net>
+    <net code="35" name="/DIO3">
+      <node ref="U6" pin="21"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="36" name="/DIO2">
+      <node ref="U2" pin="11"/>
+      <node ref="U6" pin="22"/>
+    </net>
+    <net code="37" name="/DIO1">
+      <node ref="U2" pin="10"/>
+      <node ref="U6" pin="23"/>
+    </net>
+    <net code="38" name="/DIO0">
+      <node ref="U2" pin="9"/>
+      <node ref="U6" pin="24"/>
+    </net>
+    <net code="39" name="Net-(C33-Pad2)">
+      <node ref="U6" pin="5"/>
+      <node ref="C33" pin="2"/>
+      <node ref="X2" pin="2"/>
+    </net>
+    <net code="40" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="41" name="Net-(U6-Pad9)">
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="42" name="Net-(U6-Pad10)">
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="43" name="/RF_CS">
+      <node ref="U6" pin="11"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="44" name="Net-(U6-Pad12)">
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="45" name="/MOSI">
+      <node ref="J2" pin="5"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="46" name="/MISO">
+      <node ref="U2" pin="18"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="47" name="/SX1272_RF_RX">
+      <node ref="L6" pin="2"/>
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="48" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="49" name="Net-(L4-Pad2)">
+      <node ref="U2" pin="27"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="50" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="51" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1"/>
+      <node ref="L8" pin="2"/>
+    </net>
+    <net code="52" name="Net-(C25-Pad2)">
+      <node ref="C25" pin="2"/>
+    </net>
+    <net code="53" name="Net-(C7-Pad1)">
+      <node ref="U2" pin="28"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="55" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="56" name="Net-(C8-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="57" name="Net-(C10-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="58" name="Net-(C17-Pad2)">
+      <node ref="X1" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="59" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2"/>
+      <node ref="L3" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="60" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="61" name="Net-(C15-Pad1)">
+      <node ref="L5" pin="2"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="62" name="Net-(C24-Pad2)">
+      <node ref="L7" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C24" pin="2"/>
+    </net>
+    <net code="63" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="64" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="65" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="66" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="67" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="68" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="69" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="70" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="71" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="72" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="73" name="Net-(L5-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="L5" pin="1"/>
+    </net>
+    <net code="74" name="Net-(R3-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="75" name="Net-(C3-Pad1)">
+      <node ref="L1" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="76" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="77" name="Net-(C25-Pad1)">
+      <node ref="C27" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="L9" pin="2"/>
+      <node ref="L8" pin="1"/>
+    </net>
+    <net code="78" name="Net-(C29-Pad2)">
+      <node ref="C29" pin="2"/>
+    </net>
+    <net code="79" name="Net-(L1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+  </nets>
+</export>
